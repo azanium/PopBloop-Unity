@@ -1,0 +1,51 @@
+PopBloop todo:
+- cache semua image (hover, click) di invisible div
+- buat div utk Hair, Eyes, Brows & Lips. termasuk hidden input utk previous-tab
+
+================================================
+
+width dipasin
+edit
+visit, our item, edit avatar
+
+title avatar (kiri atas)
+
+nama avatar di kanan atas
+
+=======================
+
+Avatar editor:
+- aktifkan unity-nya
+- buat fungsi2 utk 'Features'. Struktur tree-nya bisa dilihat di email Qurrota
+
+
+
+
+
+
+===================================================
+
+0. Brand DB: Store all brand-related data: theme setting, logo, like us poster, banner / header picture, fb_page_id
+	Di fb page tab app, items2 dari brand lain tidak boleh ditampilkan
+
+	14 Sept	(8 hours)
+1. Implement Micco's theme for brand: AirBotol
+	16-17 Sept (16 hours)
+
+2. FB Connection
+	Done
+3. New User / Registration Wizard:
+	a. Input avatar name:	18 Sept (1 hour)
+	b. Avatar Editor:	18 - 21 Sept (31 hours)
+		- Presets
+		- Features
+		- Style
+	c. Play page		24 Sept (8 hours)
+
+4. Locked & Unlocked Items	25 - 26 Sept (16 hours)
+
+5. Redeem Code			27 sept (8 hours)
+
+6. Hangout: 24 Sept (8 hours) (3.c)
+
+7. Distro Kit: Download page doang?	28 sept (2 hours)

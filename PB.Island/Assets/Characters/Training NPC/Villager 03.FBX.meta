@@ -1,0 +1,183 @@
+fileFormatVersion: 2
+guid: 2fe34503c2036a54fbc0a7c80464eca1
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: LC
+    100002: RF
+    100004: RCT
+    100006: //RootNode
+    100008: RTE
+    100010: NU 2
+    100012: LH
+    100014: H
+    100016: LS
+    100018: RF4
+    100020: NU
+    100022: S2
+    100024: RF9
+    100026: NU 6
+    100028: LF6
+    100030: RC
+    100032: RF6
+    100034: NU 1
+    100036: LF7
+    100038: LF5
+    100040: NU 4
+    100042: NU 9
+    100044: LDA
+    100046: LF3
+    100048: LF10
+    100050: P
+    100052: NU 7
+    100054: LCT
+    100056: RF3
+    100058: LF4
+    100060: RDA
+    100062: RF2
+    100064: N
+    100066: RF5
+    100068: RH
+    100070: LFT
+    100072: NU 10
+    100074: RUA
+    100076: LF2
+    100078: LF8
+    100080: LUA
+    100082: S1
+    100084: RT
+    100086: root_joint
+    100088: RF10
+    100090: LF
+    100092: LF9
+    100094: NU 8
+    100096: LT
+    100098: NU 12
+    100100: RF7
+    100102: NU 11
+    100104: RFT
+    100106: RF1
+    100108: RS
+    100110: NU 5
+    100112: NU 3
+    100114: LTE
+    100116: RF8
+    100118: LF1
+    100120: ' bip01 Footsteps'
+    100122: Villager_03_mesh
+    400000: LC
+    400002: RF
+    400004: RCT
+    400006: //RootNode
+    400008: RTE
+    400010: NU 2
+    400012: LH
+    400014: H
+    400016: LS
+    400018: RF4
+    400020: NU
+    400022: S2
+    400024: RF9
+    400026: NU 6
+    400028: LF6
+    400030: RC
+    400032: RF6
+    400034: NU 1
+    400036: LF7
+    400038: LF5
+    400040: NU 4
+    400042: NU 9
+    400044: LDA
+    400046: LF3
+    400048: LF10
+    400050: P
+    400052: NU 7
+    400054: LCT
+    400056: RF3
+    400058: LF4
+    400060: RDA
+    400062: RF2
+    400064: N
+    400066: RF5
+    400068: RH
+    400070: LFT
+    400072: NU 10
+    400074: RUA
+    400076: LF2
+    400078: LF8
+    400080: LUA
+    400082: S1
+    400084: RT
+    400086: root_joint
+    400088: RF10
+    400090: LF
+    400092: LF9
+    400094: NU 8
+    400096: LT
+    400098: NU 12
+    400100: RF7
+    400102: NU 11
+    400104: RFT
+    400106: RF1
+    400108: RS
+    400110: NU 5
+    400112: NU 3
+    400114: LTE
+    400116: RF8
+    400118: LF1
+    400120: ' bip01 Footsteps'
+    400122: Villager_03_mesh
+    4300000: Villager_03_mesh
+    7400000: Villager_004
+    11100000: //RootNode
+    13700000: Villager_03_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

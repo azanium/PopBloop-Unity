@@ -1,0 +1,29 @@
+achievement: user_id, tipe, value
+
+---------------------------------------------------------------------------
+
+[ACHIEVEMENT_TYPE]
+game related:
+energy, walk_distance, game_time_spent, npc_interaction, shout, quest_finished, item_looted ... etc etc
+
+social related:
+invite_friend, invite_friend_succceed, chat, online_time ... etc etc
+
+---------------------------------------------------------------------------
+
+cara update:
+report/user/achievement/[USER_ID]/[ACHIEVEMENT_TYPE]/[OPERATION]/[VALUE]
+
+[OPERATION]: 
+- 'inc' untuk menambahkan value di db dgn [VALUE]
+- 'set' untuk mengubah value di db dgn [VALUE]
+- 'dec' untuk mengurangi value di db dgn [VALUE]
+
+[VALUE]: integer
+
+---------------------------------------------------------------------------
+
+cara dapatkan [USER_ID]
+dari web: user/user/userid
+dari webplayer: user/user/session_to_user_id/[SESSION_ID]
+

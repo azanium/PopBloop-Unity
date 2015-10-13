@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: bb2a3ff47dac0e046a7bb713946c07f9
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: ' bip01 Footsteps'
+    100002: H
+    100004: LC
+    100006: LCT
+    100008: LDA
+    100010: LF
+    100012: LF1
+    100014: LF10
+    100016: //RootNode
+    100018: LF2
+    100020: LF3
+    100022: LF4
+    100024: LF5
+    100026: LF6
+    100028: LF7
+    100030: LF8
+    100032: LF9
+    100034: LFT
+    100036: LH
+    100038: LS
+    100040: LT
+    100042: LTE
+    100044: LUA
+    100046: N
+    100048: NU
+    100050: NU 1
+    100052: NU 10
+    100054: NU 11
+    100056: NU 12
+    100058: NU 2
+    100060: NU 3
+    100062: NU 4
+    100064: NU 5
+    100066: NU 6
+    100068: NU 7
+    100070: NU 8
+    100072: NU 9
+    100074: P
+    100076: RC
+    100078: RCT
+    100080: RDA
+    100082: RF
+    100084: RF1
+    100086: RF10
+    100088: RF2
+    100090: RF3
+    100092: RF4
+    100094: RF5
+    100096: RF6
+    100098: RF7
+    100100: RF8
+    100102: RF9
+    100104: RFT
+    100106: RH
+    100108: root_joint
+    100110: RS
+    100112: RT
+    100114: RTE
+    100116: RUA
+    100118: S1
+    100120: S2
+    100122: Body_Fat
+    100124: Body_Foot
+    100126: Body_hand
+    100128: Body_Legs_Fat
+    100130: Body_Legs_Medium
+    100132: Body_Legs_Thin
+    100134: Body_Medium
+    100136: Body_Thin
+    100138: Hair_01
+    100140: Hair_02
+    100142: Hair_03
+    100144: Hat
+    100146: Head
+    100148: Pants_Fat
+    100150: Pants_Medium
+    100152: Pants_Thin
+    100154: Polo_Shirt_Fat
+    100156: Polo_Shirt_Medium
+    100158: Polo_Shirt_Thin
+    100160: Shirt_Fat
+    100162: Shirt_Medium
+    100164: Shirt_Thin
+    100166: Shoes_01
+    100168: Shoes_02
+    100170: Short_Pants_Fat
+    100172: Short_Pants_Medium
+    100174: Short_Pants_Thin
+    100176: Short_Pants_Variant_Fat
+    100178: Short_Pants_Variant_Medium
+    100180: Short_Pants_Variant_Thin
+    100182: sweater_Fat
+    100184: sweater_Medium
+    100186: sweater_Thin
+    100188: T-Shirt_Fat
+    100190: T-Shirt_Medium
+    100192: T-Shirt_Thin
+    400000: ' bip01 Footsteps'
+    400002: H
+    400004: LC
+    400006: LCT
+    400008: LDA
+    400010: LF
+    400012: LF1
+    400014: LF10
+    400016: //RootNode
+    400018: LF2
+    400020: LF3
+    400022: LF4
+    400024: LF5
+    400026: LF6
+    400028: LF7
+    400030: LF8
+    400032: LF9
+    400034: LFT
+    400036: LH
+    400038: LS
+    400040: LT
+    400042: LTE
+    400044: LUA
+    400046: N
+    400048: NU
+    400050: NU 1
+    400052: NU 10
+    400054: NU 11
+    400056: NU 12
+    400058: NU 2
+    400060: NU 3
+    400062: NU 4
+    400064: NU 5
+    400066: NU 6
+    400068: NU 7
+    400070: NU 8
+    400072: NU 9
+    400074: P
+    400076: RC
+    400078: RCT
+    400080: RDA
+    400082: RF
+    400084: RF1
+    400086: RF10
+    400088: RF2
+    400090: RF3
+    400092: RF4
+    400094: RF5
+    400096: RF6
+    400098: RF7
+    400100: RF8
+    400102: RF9
+    400104: RFT
+    400106: RH
+    400108: root_joint
+    400110: RS
+    400112: RT
+    400114: RTE
+    400116: RUA
+    400118: S1
+    400120: S2
+    400122: Body_Fat
+    400124: Body_Foot
+    400126: Body_hand
+    400128: Body_Legs_Fat
+    400130: Body_Legs_Medium
+    400132: Body_Legs_Thin
+    400134: Body_Medium
+    400136: Body_Thin
+    400138: Hair_01
+    400140: Hair_02
+    400142: Hair_03
+    400144: Hat
+    400146: Head
+    400148: Pants_Fat
+    400150: Pants_Medium
+    400152: Pants_Thin
+    400154: Polo_Shirt_Fat
+    400156: Polo_Shirt_Medium
+    400158: Polo_Shirt_Thin
+    400160: Shirt_Fat
+    400162: Shirt_Medium
+    400164: Shirt_Thin
+    400166: Shoes_01
+    400168: Shoes_02
+    400170: Short_Pants_Fat
+    400172: Short_Pants_Medium
+    400174: Short_Pants_Thin
+    400176: Short_Pants_Variant_Fat
+    400178: Short_Pants_Variant_Medium
+    400180: Short_Pants_Variant_Thin
+    400182: sweater_Fat
+    400184: sweater_Medium
+    400186: sweater_Thin
+    400188: T-Shirt_Fat
+    400190: T-Shirt_Medium
+    400192: T-Shirt_Thin
+    4300000: Body_Legs_Medium
+    4300002: Body_Medium
+    4300004: Body_Foot
+    4300006: Shirt_Medium
+    4300008: Polo_Shirt_Medium
+    4300010: Short_Pants_Variant_Medium
+    4300012: sweater_Medium
+    4300014: Body_hand
+    4300016: Short_Pants_Medium
+    4300018: T-Shirt_Medium
+    4300020: Pants_Medium
+    4300022: Head
+    4300024: Body_Fat
+    4300026: Body_Legs_Fat
+    4300028: Body_Thin
+    4300030: Body_Legs_Thin
+    4300032: Shirt_Thin
+    4300034: Shirt_Fat
+    4300036: Polo_Shirt_Thin
+    4300038: Polo_Shirt_Fat
+    4300040: Short_Pants_Variant_Thin
+    4300042: Short_Pants_Variant_Fat
+    4300044: sweater_Thin
+    4300046: sweater_Fat
+    4300048: Short_Pants_Thin
+    4300050: Short_Pants_Fat
+    4300052: T-Shirt_Fat
+    4300054: T-Shirt_Thin
+    4300056: Pants_Thin
+    4300058: Pants_Fat
+    4300060: Shoes_01
+    4300062: Hair_01
+    4300064: Hair_02
+    4300066: Hat
+    4300068: Shoes_02
+    4300070: Hair_03
+    7400000: Male_final04
+    11100000: //RootNode
+    13700000: Body_Fat
+    13700002: Body_Foot
+    13700004: Body_hand
+    13700006: Body_Legs_Fat
+    13700008: Body_Legs_Medium
+    13700010: Body_Legs_Thin
+    13700012: Body_Medium
+    13700014: Body_Thin
+    13700016: Hair_01
+    13700018: Hair_02
+    13700020: Hair_03
+    13700022: Hat
+    13700024: Head
+    13700026: Pants_Fat
+    13700028: Pants_Medium
+    13700030: Pants_Thin
+    13700032: Polo_Shirt_Fat
+    13700034: Polo_Shirt_Medium
+    13700036: Polo_Shirt_Thin
+    13700038: Shirt_Fat
+    13700040: Shirt_Medium
+    13700042: Shirt_Thin
+    13700044: Shoes_01
+    13700046: Shoes_02
+    13700048: Short_Pants_Fat
+    13700050: Short_Pants_Medium
+    13700052: Short_Pants_Thin
+    13700054: Short_Pants_Variant_Fat
+    13700056: Short_Pants_Variant_Medium
+    13700058: Short_Pants_Variant_Thin
+    13700060: sweater_Fat
+    13700062: sweater_Medium
+    13700064: sweater_Thin
+    13700066: T-Shirt_Fat
+    13700068: T-Shirt_Medium
+    13700070: T-Shirt_Thin
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

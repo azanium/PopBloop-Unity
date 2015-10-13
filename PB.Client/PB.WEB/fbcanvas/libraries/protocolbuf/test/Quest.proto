@@ -1,0 +1,87 @@
+message DialogOption {
+	required int32 id = 1;
+	required int32 nextDialog = 2;
+	required string text = 3;
+}
+
+message DialogData {
+	required int32 id = 1;
+	enum Tipe {
+		DIALOG = 0;
+	}
+	required Tipe tipe = 2 [default = DIALOG];
+	required string text = 3;
+	repeated DialogOption opt = 4;		// array of DialogOption
+}
+
+message DialogTree {
+	repeated DialogData dialogs = 1;	// array of DialogData
+	required int32 currentDialog = 2;
+	optional int32 keyDialogOption = 3;	// DialogOption.id, kunci jawaban dari dialog ini. 
+										// jika DialogOption ini sudah tercapai, maka dialog selesai.
+}
+
+//////////////// baru sampe senee...
+enum Status {
+	INACTIVE = 0;
+	ACTIVE = 1;
+	DONE = 2;
+}
+
+message PlayerQuest {
+	required int32 id = 1;	// string: id player di mongodb		utk player P, quest Q1 statusnya Aktif, current activity A3
+							//									utk player P, quest Q4 statusnya Aktif, current activity A6
+	required int32 quest = 2;				// Quest ID
+	optional Status status = 3 [default = ACTIVE];			// 1 : active, 0 : 
+	required int32 currentActivity = 4;	// Activity.id
+}
+
+message QuestResult {
+	required string key = 1;
+	required string val = 2;
+}
+
+message PlayerQuestList {
+	repeated PlayerQuest playerQuests = 1;	// a list of player quest..	
+}
+
+enum ObjectiveType {
+	NPC = 1;
+	AREA = 2;
+	ITEM = 2;
+}
+
+enum Action {
+	DISPLAYDIALOG = 1;
+}
+
+message Activity {
+	required int32 id = 1;
+	required string activityName = 2;	// string
+	repeated int32 requirement = 3;	// array of QuestActivity objects: array($activity_01, $activity_03)
+	repeated QuestResult result = 4;		// array of QuestResult
+	required int32 nextActivity = 5;	// QuestActivity object: $activity_12
+							// diubah jadi: Activity.id
+	
+	required ObjectiveType objectiveType = 6 [default = NPC];	// NPC (talk), area (go to), item (get)
+	required int32 objectiveId = 7;		// ID (database) dari object (NPC, Area, Item) ini
+	
+	required Action action = 8 [default = DISPLAYDIALOG];		// display dialog? dll...
+	
+	required DialogTree dialog = 9;		// object DialogTree
+}
+
+
+message Quest {
+	required int32 id = 1;
+	required string name = 2;			// string: "Sayembara Pepsodent berhadiah sikat gigi bekas"]
+	repeated int32 requirementQuest = 3;		// array of quest, 
+	required int32 requirementDoku = 4;		// doku minimal
+	required int32 requirementFame = 5;	// senioritas
+	required string description = 6;	// string: keterangan yg akan ditampilkan ke user tentang quest ini
+	//	required startPeriod;
+	//	required endPeriod;
+	repeated Activity activities = 7;	// array of Activity objects: array($activity_01, $activity_03, $activity_09)
+}
+
+

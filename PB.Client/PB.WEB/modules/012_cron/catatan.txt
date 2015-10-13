@@ -1,0 +1,5 @@
+CRON:
+1. notify mentioned friends (shout / shout_comment)
+2. send email to unverified user
+3. send email to invite new player
+4. 

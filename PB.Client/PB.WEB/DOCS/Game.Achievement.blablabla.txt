@@ -1,0 +1,20 @@
+cara hitung achievement 'online_time_spent'
+
+- saat login: catat waktu masuk
+	
+
+
+
+================================================================================
+Prevent multiple logins:
+1. saat login, simpan session_id ke db
+tiap ada request dgn session_id tsb, set current time sebagai end_time
+ato...
+cukup request friendlist aja yg dihitung? tiap 1-2 menit misalnya
+
+
+kapan data start & end time di session dipindah ke table Achievement?
+	saat logout? user belum tentu logout
+	setiap request? terlalu sering, membebani server
+	solusi: di 
+

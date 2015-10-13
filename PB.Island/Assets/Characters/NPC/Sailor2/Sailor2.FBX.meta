@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: cbccf78b001530d4d8baac680a5ca622
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Box01
+    100004: RCT
+    100006: NU 2
+    100008: RTE
+    100010: RF
+    100012: RC
+    100014: RT
+    100016: LCT
+    100018: NU 1
+    100020: LTE
+    100022: LF
+    100024: LC
+    100026: LT
+    100028: NU
+    100030: H
+    100032: RFT
+    100034: NU 8
+    100036: RF9
+    100038: RF10
+    100040: NU 12
+    100042: RF7
+    100044: RF8
+    100046: NU 11
+    100048: RF5
+    100050: RF6
+    100052: NU 10
+    100054: RF3
+    100056: RF4
+    100058: NU 9
+    100060: RF1
+    100062: RF2
+    100064: RH
+    100066: RDA
+    100068: RUA
+    100070: RS
+    100072: LFT
+    100074: NU 3
+    100076: LF9
+    100078: LF10
+    100080: NU 7
+    100082: LF7
+    100084: LF8
+    100086: NU 6
+    100088: LF5
+    100090: LF6
+    100092: NU 5
+    100094: LF3
+    100096: LF4
+    100098: NU 4
+    100100: LF1
+    100102: LF2
+    100104: LH
+    100106: LDA
+    100108: LUA
+    100110: LS
+    100112: N
+    100114: S1
+    100116: S2
+    100118: P
+    100120: root_joint
+    100122: sailor_mesh
+    100124: ' bip01 Footsteps'
+    400000: //RootNode
+    400002: Box01
+    400004: RCT
+    400006: NU 2
+    400008: RTE
+    400010: RF
+    400012: RC
+    400014: RT
+    400016: LCT
+    400018: NU 1
+    400020: LTE
+    400022: LF
+    400024: LC
+    400026: LT
+    400028: NU
+    400030: H
+    400032: RFT
+    400034: NU 8
+    400036: RF9
+    400038: RF10
+    400040: NU 12
+    400042: RF7
+    400044: RF8
+    400046: NU 11
+    400048: RF5
+    400050: RF6
+    400052: NU 10
+    400054: RF3
+    400056: RF4
+    400058: NU 9
+    400060: RF1
+    400062: RF2
+    400064: RH
+    400066: RDA
+    400068: RUA
+    400070: RS
+    400072: LFT
+    400074: NU 3
+    400076: LF9
+    400078: LF10
+    400080: NU 7
+    400082: LF7
+    400084: LF8
+    400086: NU 6
+    400088: LF5
+    400090: LF6
+    400092: NU 5
+    400094: LF3
+    400096: LF4
+    400098: NU 4
+    400100: LF1
+    400102: LF2
+    400104: LH
+    400106: LDA
+    400108: LUA
+    400110: LS
+    400112: N
+    400114: S1
+    400116: S2
+    400118: P
+    400120: root_joint
+    400122: sailor_mesh
+    400124: ' bip01 Footsteps'
+    2300000: Box01
+    3300000: Box01
+    4300000: sailor_mesh
+    4300002: Box01
+    7400000: Take 001
+    7400002: idle
+    7400004: Box_Lift
+    11100000: //RootNode
+    13700000: sailor_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Box_Lift
+      takeName: 
+      firstFrame: 1
+      lastFrame: 500
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

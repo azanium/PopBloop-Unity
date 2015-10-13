@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: e37795e1204d9364aa27e93549d6a068
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: LF7
+    100002: RF9
+    100004: RT
+    100006: RCT
+    100008: RF5
+    100010: RFT
+    100012: RF7
+    100014: RF
+    100016: LC
+    100018: RC
+    100020: RTE
+    100022: RF10
+    100024: LTE
+    100026: RF8
+    100028: H
+    100030: LCT
+    100032: //RootNode
+    100034: LF
+    100036: LT
+    100038: LFT
+    100040: RF3
+    100042: S2
+    100044: N
+    100046: LS
+    100048: LF5
+    100050: RUA
+    100052: LF6
+    100054: LH
+    100056: RDA
+    100058: LF10
+    100060: RF1
+    100062: LUA
+    100064: LF4
+    100066: LF1
+    100068: LDA
+    100070: root_joint
+    100072: P
+    100074: RF4
+    100076: LF9
+    100078: S1
+    100080: RF2
+    100082: LF3
+    100084: RF6
+    100086: LF2
+    100088: LF8
+    100090: RH
+    100092: RS
+    100094: nurse1
+    100096: ' bip01 Footsteps'
+    400000: LF7
+    400002: RF9
+    400004: RT
+    400006: RCT
+    400008: RF5
+    400010: RFT
+    400012: RF7
+    400014: RF
+    400016: LC
+    400018: RC
+    400020: RTE
+    400022: RF10
+    400024: LTE
+    400026: RF8
+    400028: H
+    400030: LCT
+    400032: //RootNode
+    400034: LF
+    400036: LT
+    400038: LFT
+    400040: RF3
+    400042: S2
+    400044: N
+    400046: LS
+    400048: LF5
+    400050: RUA
+    400052: LF6
+    400054: LH
+    400056: RDA
+    400058: LF10
+    400060: RF1
+    400062: LUA
+    400064: LF4
+    400066: LF1
+    400068: LDA
+    400070: root_joint
+    400072: P
+    400074: RF4
+    400076: LF9
+    400078: S1
+    400080: RF2
+    400082: LF3
+    400084: RF6
+    400086: LF2
+    400088: LF8
+    400090: RH
+    400092: RS
+    400094: nurse1
+    400096: ' bip01 Footsteps'
+    4300000: nurse1
+    7400000: nurse
+    11100000: //RootNode
+    13700000: nurse1
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

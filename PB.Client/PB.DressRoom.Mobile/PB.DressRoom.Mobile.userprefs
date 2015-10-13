@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PBScripts\Controllers\WelcomeController.cs">
+    <Files>
+      <File FileName="PB.DressRoom.Mobile.sln" Line="1" Column="1" />
+      <File FileName="Assets\PBScripts\Controllers\MyAvatarController.cs" Line="1" Column="1" />
+      <File FileName="Assets\PBScripts\Controllers\WelcomeController.cs" Line="196" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

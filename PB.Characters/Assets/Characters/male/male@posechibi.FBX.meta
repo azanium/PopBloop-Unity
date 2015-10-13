@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: cdd6d586a94ab154e8df096e38f7672d
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: H
+    100004: LC
+    100006: LCT
+    100008: LDA
+    100010: LF
+    100012: LF1
+    100014: LF10
+    100016: LF2
+    100018: LF3
+    100020: LF4
+    100022: LF5
+    100024: LF6
+    100026: LF7
+    100028: LF8
+    100030: LF9
+    100032: LFT
+    100034: LH
+    100036: LS
+    100038: LT
+    100040: LTE
+    100042: LUA
+    100044: N
+    100046: NU
+    100048: NU 1
+    100050: NU 10
+    100052: NU 11
+    100054: NU 12
+    100056: NU 2
+    100058: NU 3
+    100060: NU 4
+    100062: NU 5
+    100064: NU 6
+    100066: NU 7
+    100068: NU 8
+    100070: NU 9
+    100072: P
+    100074: RC
+    100076: RCT
+    100078: RDA
+    100080: RF
+    100082: RF1
+    100084: RF10
+    100086: RF2
+    100088: RF3
+    100090: RF4
+    100092: RF5
+    100094: RF6
+    100096: RF7
+    100098: RF8
+    100100: RF9
+    100102: RFT
+    100104: RH
+    100106: root_joint
+    100108: RS
+    100110: RT
+    100112: RTE
+    100114: RUA
+    100116: S1
+    100118: S2
+    100120: Body_hand
+    100122: Hair_02
+    100124: Head
+    100126: Pants_Medium
+    100128: Shoes_02
+    100130: T-Shirt_Medium
+    400000: //RootNode
+    400002: H
+    400004: LC
+    400006: LCT
+    400008: LDA
+    400010: LF
+    400012: LF1
+    400014: LF10
+    400016: LF2
+    400018: LF3
+    400020: LF4
+    400022: LF5
+    400024: LF6
+    400026: LF7
+    400028: LF8
+    400030: LF9
+    400032: LFT
+    400034: LH
+    400036: LS
+    400038: LT
+    400040: LTE
+    400042: LUA
+    400044: N
+    400046: NU
+    400048: NU 1
+    400050: NU 10
+    400052: NU 11
+    400054: NU 12
+    400056: NU 2
+    400058: NU 3
+    400060: NU 4
+    400062: NU 5
+    400064: NU 6
+    400066: NU 7
+    400068: NU 8
+    400070: NU 9
+    400072: P
+    400074: RC
+    400076: RCT
+    400078: RDA
+    400080: RF
+    400082: RF1
+    400084: RF10
+    400086: RF2
+    400088: RF3
+    400090: RF4
+    400092: RF5
+    400094: RF6
+    400096: RF7
+    400098: RF8
+    400100: RF9
+    400102: RFT
+    400104: RH
+    400106: root_joint
+    400108: RS
+    400110: RT
+    400112: RTE
+    400114: RUA
+    400116: S1
+    400118: S2
+    400120: Body_hand
+    400122: Hair_02
+    400124: Head
+    400126: Pants_Medium
+    400128: Shoes_02
+    400130: T-Shirt_Medium
+    4300000: Body_hand
+    4300002: T-Shirt_Medium
+    4300004: Pants_Medium
+    4300006: Head
+    4300008: Hair_02
+    4300010: Shoes_02
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Body_hand
+    13700002: Hair_02
+    13700004: Head
+    13700006: Pants_Medium
+    13700008: Shoes_02
+    13700010: T-Shirt_Medium
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

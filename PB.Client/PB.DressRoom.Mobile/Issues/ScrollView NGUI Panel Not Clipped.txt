@@ -1,0 +1,2 @@
+1. Make sure the clipping UIPanel is the parent of all the clipped panel
+2. Make sure if you want to use UITexture the shader is Unlint/Transparent Colored or Unlint/Transparent Colored (Alpha Clip)

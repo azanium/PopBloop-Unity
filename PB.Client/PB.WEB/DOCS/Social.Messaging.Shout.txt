@@ -1,0 +1,10 @@
+Shout API:
+URL: [BASEPATH]/message/guest/shout
+
+semua variable harus di post
+
+variable:
+1. session_id
+2. shout: text yg akan di-shout, tidak boleh string kosong
+3. circle: string, default '' (share to all circles)
+

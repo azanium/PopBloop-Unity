@@ -1,0 +1,92 @@
+fileFormatVersion: 2
+guid: 8dda4e3f4a7a87a4b95c71c79505f316
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    4300000: Body_Legs_Medium
+    4300002: Body_Hand
+    4300004: Body_Foot
+    4300006: Head
+    4300008: Body_Medium
+    4300010: Hair1_Top
+    4300012: Short_Shirt_Medium
+    4300014: Long_Pants_Medium
+    4300016: Skirt_Medium
+    4300018: Long_Shirt_Medium
+    4300020: Short_Pants_Medium
+    4300022: Shoes_02
+    4300024: Shoes_01
+    4300026: Hair1_Bottom
+    4300028: Hair3_Bottom
+    4300030: Body_Fat
+    4300032: Body_Legs_Fat
+    4300034: Body_Thin
+    4300036: Body_Legs_Thin
+    4300038: Short_Shirt_Fat
+    4300040: Long_Pants_Fat
+    4300042: Short_Pants_Fat
+    4300044: Long_Shirt_Fat
+    4300046: Skirt_Fat_fat
+    4300048: Short_Shirt_Thin
+    4300050: Long_Pants_thin
+    4300052: Long_Shirt_Thin
+    4300054: Skirt_Thin
+    4300056: Short_Pants_Thin
+    4300058: Hair2_Bottom
+    4300060: Hair3_Top
+    4300062: Hair2_Top
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

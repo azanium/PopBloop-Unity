@@ -1,0 +1,849 @@
+/*#navlist{position:relative;}
+#navlist li{margin:0;padding:0;list-style:none;position:absolute;top:0;}
+#navlist li, #navlist a{height:22px;display:block; font-weight:900; font-size:16px;}
+*/
+
+/*
+#home{left:0px;width:23px;}
+#home{background:url('../images/menu.sprite.small.png') 0 0;}
+
+#prev{left:31.5px;width:21.5px;}
+#prev{background:url('../images/menu.sprite.small.png') -23.5px 0;}
+
+#next{left:64.5px;width:21.5px;}
+#next{background:url('../images/menu.sprite.small.png') -45.5px 0;}
+
+#logout{left:86px;width:21.5px;}
+#logout{background:url('../images/menu.sprite.small.png') -45.5px 0;}
+*/
+
+/*
+#home{left:20px;width:80px;}
+#logout{left:100px;width:80px;}
+
+input, select, textarea{
+	background-color:#0CF;
+	font-size: 90%;
+	font-weight: bold;
+	color: #FFF;
+	border-width: 1px;
+	border-color: #0066CC #0099CC #00CCCC;
+	border-radius: 4px 4px 4px 4px;
+	margin: 5px 0;
+	padding: 6px 10px;
+}
+*/
+
+input, textarea { 
+  resize: none;
+}
+
+#recaptcha_image{
+	width:260px;
+	text-align:left;
+	padding:0 0 7px 7px;
+}
+
+#recaptcha_image img{
+	width:246px;
+}
+
+#recaptcha_audio_play_again, #recaptcha_audio_download{
+	text-decoration:none;
+	cursor:pointer;
+	color:#FFF;
+}
+
+.centered {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.centered_hor_and_vert {
+	height: 500px;
+	left: 50%;
+	margin-left: -480px;
+	margin-top: -250px;
+	position: absolute;
+	top: 50%;
+	width: 960px;
+}
+/*
+.shadow {
+  -moz-box-shadow: 5px 5px 5px #ccc;
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+  box-shadow: 5px 5px 5px #ccc;
+}
+*/
+
+.light_blue_bg { background-color:#b8d6fb;}
+
+.shadow {
+  -moz-box-shadow: 0px 0px 10px #999;
+  -webkit-box-shadow: 0px 0px 10px #999;
+  box-shadow: 0px 0px 10px #999;
+}
+
+.inner_shadow {
+	-moz-box-shadow:inset 0 0 30px #999;
+	-webkit-box-shadow:inset 0 0 30px #999;
+	box-shadow:inset 0 0 30px #999;
+}
+
+/*
+.inner_shadow {
+	-moz-box-shadow:inset 0 0 10px #00CCFF;
+	-webkit-box-shadow:inset 0 0 10px #00CCFF;
+	box-shadow:inset 0 0 10px #00CCFF;
+}
+*/
+
+.light_shadow {
+  -moz-box-shadow: 0px 0px 10px #ccc;
+  -webkit-box-shadow: 0px 0px 10px #ccc;
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.transparent_70 {	/* sementara pake 90% */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=90);
+	
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.9;
+	
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.9;
+	
+	/* Modern!
+	/* Firefox 0.9+, Safari 2?, Chrome any?
+	/* Opera 9+, IE 9+ */
+	opacity: 0.9;
+}
+
+.transbg {
+	background:transparent;
+}
+
+/* from WebPlayer.html*/
+
+/*
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: black;
+	text-align: center;
+	background:url('../images/lilo.logo.big.jpg') top center repeat-x;
+	background-attachment:fixed;
+	font-size:80%;
+	background-color:#d68512;
+}
+*/
+.loading_div{
+	display:none;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+	height:100%;
+	text-align:center;
+/*	background:url("../images/loading.gif") center no-repeat;*/
+	top:0;
+	position:fixed;
+	z-index:1000;
+}
+
+.top_notification{
+	cursor:pointer;
+}
+/*
+#top_profile_picture{
+	max-height:36px;
+	max-width:36px;
+}
+*/
+.friendlist_bottom{
+	position:fixed;
+	bottom:25px;
+	left:6px;
+	min-height:0px;
+	min-width:160px;
+	max-width:160px;
+	overflow: hidden;
+	background-color: #343434/*#00CCFF*/;
+/*	border: 1px #CCC solid;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;*/
+	z-index:9999999;
+}
+
+/*
+.friendlist_bottom_header{
+	cursor:pointer;
+	top:0px;
+	position:relative;
+	height:30px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border: 1px #CCC solid;
+	margin:1px;
+	background:url("../images/ui-bg_gloss-wave_50_6eac2c_500x100.png") repeat-x scroll 50% 50% #6EAC2C;
+}
+
+.friendlist_bottom_header:hover{
+	background:url("../images/ui-bg_glass_75_71def9_1x400.png") repeat-x scroll 50% 50% #6EAC2C;
+}
+*/
+
+.friendlist_bottom_content{
+/*	height:300px;*/
+/*	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	border: 1px #CCC solid;
+	margin:1px;*/
+	text-align:left;
+	
+	
+	
+/*
+	position:fixed;
+	bottom:24px;
+	left:6px;
+	min-height:0px;
+	min-width:160px;
+*/
+}
+
+.friendlist_bottom_title{
+	width:99%;
+	float:left;
+	margin-top:4.5px;
+	margin-left:10px;
+	cursor:pointer;
+	color:#FFF;
+	font-weight:bold;
+	text-align:left;
+}
+
+.friendlist_bottom_max_min{
+	width:20px;
+	float:left;
+	margin-right:6px;
+	cursor:pointer;
+	color:#FFF;
+}
+
+.friendlist_bottom_max_min:hover{
+	color:#CCC;
+}
+
+.friendlist_bottom_circle_name{
+	height:16px;
+	overflow: hidden;
+	background-color:#FFF;
+	font-weight:bold;
+	color:#333;
+	cursor:pointer;
+/*	font-size:14px;*/
+	padding: 6px 10px 0 10px;
+}
+
+.friendlist_bottom_circle_name:hover{
+	color:#000;
+}
+
+.friendlist_bottom_item{
+	text-align:left;
+/*	font-size:12px;*/
+	background:transparent;
+	font-weight:normal;
+	background-color:#FFF;
+	border:none;
+/*	border:1px;*/
+	color:#666;
+	cursor:pointer;
+	padding: 2px 10px;
+	/*
+	min-width:160px;
+	max-width:160px;
+	float:left;
+	
+	*/
+	overflow:hidden;
+}
+
+.friendlist_bottom_item:hover{
+	color:#333;
+}
+
+.friendlist_bottom_msg{
+	text-align:left;
+	font-size:12px;
+	background:transparent;
+	font-weight:normal;
+	background-color:#FFF;
+	border:none;
+/*	border:1px;*/
+	color:#666;
+	cursor:pointer;
+	padding: 2px 10px;
+	
+/*	min-width:40px;
+	max-width:40px;
+	float:left;
+*/
+}
+
+.friendlist_bottom_msg:hover{
+	color:#333;
+}
+
+.chatarea{
+	position:fixed;
+	bottom:24px;
+	left:168px;
+	min-height:0px;
+	min-width:0px;
+	/*
+	background-color: #00CCFF;
+	border: 2px #CCC solid;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	*/
+}
+
+/*
+chatwindow, chatwindowtitle, chatwindowcontent
+*/
+
+.chatwindow{
+/*	border:1px #343434 solid;
+	min-height:200px;*/
+	min-width:212px;
+	max-width:212px;
+
+/*	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color:#0CF;
+*/
+	background-color:#343434;
+	float:left;
+	margin-left:5px;
+}
+
+.chatwindowtitle{
+	background-color:#343434;
+/*	background-color:#0CF;
+	font-size:12px;*/
+	font-weight:bold;
+	color:#FFF;
+	height:18px;
+/*	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;*/
+	padding: 7px 1px 1px 1px;
+}
+
+.chatwindowcontent{
+/*	font-size:11px;*/
+	color:#666;
+	min-height:200px;
+	max-height:200px;
+	min-width:204px;
+/*	max-width:200px;*/
+	max-width:204px;
+	overflow-y:auto;
+	overflow-x:auto;
+/*	border:1px #343434 solid;
+	margin:1px;*/
+	background-color:#FFF;
+	text-align:left;
+	padding: 4px;
+}
+
+/*
+
+style=''
+*/
+
+.chattextarea{
+/*	min-width:200px;*/
+	min-width:206px;
+	min-height:40px;
+/*	max-width:200px;*/
+	max-width:206px;
+	max-height:40px;
+	font-size:12px;
+	
+	background-color:#FFF;
+	font-weight: normal;
+	color: #666;
+/*	border-width: 1px;
+	border-color: #CCC;
+	border-radius: 0px;*/
+/*	margin: 2px 0;
+	padding: 6px 10px;*/
+/*	padding: 2px;*/
+	padding:0;
+}
+
+.toggle_item_chat, .bottom_message_archive{
+	width:20px;
+	text-align:center;
+	float:left;
+	cursor:pointer;
+}
+
+.toggle_item_chat{
+	background:url(../images_popbloopdark/icons/x.png) center top no-repeat;
+}
+
+.toggle_item_chat:hover{
+	background:url(../images_popbloopdark/icons/x.hover.png) center top no-repeat;
+}
+
+.bottom_message_archive{
+	background:url(../images_popbloopdark/icons/msg.arch.png) center top no-repeat;
+}
+
+.bottom_message_archive:hover{
+	background:url(../images_popbloopdark/icons/msg.arch.hover.png) center top no-repeat;
+}
+
+a:link, a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+a:active, a:hover {
+	color: #CCC;
+	text-decoration: none;
+}
+
+
+
+p.header {
+	font-size: small;
+}
+p.header span {
+	font-weight: bold;
+}
+p.footer {
+	font-size: x-small;
+}
+div.content {
+	margin: auto;
+	width: 400px;
+}
+div.missing {
+	margin: auto;
+	position: relative;
+	top: 50%;
+	width: 193px;
+}
+div.missing a {
+	height: 63px;
+	position: relative;
+	top: -31px;
+}
+div.missing img {
+	border-width: 0px;
+}
+div#unityPlayer {
+	cursor: default;
+	height: 480px;
+	width: 400px;
+}
+
+.input_form tr:nth-child(even) {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.input_form tr:nth-child(odd) {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity:0.9;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+}
+
+.tr_hover{
+	background-color: #FFF;
+	color:#0CF;
+}
+
+.input_form th {
+	text-align:center;
+	
+	font-size: 1.0em;
+	font-weight:bolder;
+	margin: 5px 0px;
+	color: #FFF;
+	
+	background: #00ccff;
+	padding: 6px 10px;
+	border-width:2px;
+	border-color:#06C #09C #0CC;
+	
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+
+}
+
+.input_form td {
+	text-align:left;
+
+	font-size: 1.0em;
+	font-weight:normal;
+	margin: 5px 0px;
+	color: #FFF;
+	
+	background: #00ccff;
+	padding: 6px 10px;
+	border-width:2px;
+	border-color:#06C #09C #0CC;
+	
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+
+
+
+}
+
+.bluetext {
+	color:#00ccff;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.float_div_left {
+	position: fixed;
+	left: 0;
+	top: 100px;
+	width: 30px;
+	min-height: 200px;
+	z-index: 5;
+/*	border:#00ccff medium solid;*/
+	background-color:#00ccff;
+
+	-moz-border-radius-bottomright: 12px;
+	border-bottom-right-radius: 12px;
+
+	-moz-border-radius-topright: 12px;
+	border-top-right-radius: 12px;
+
+	color:#FFF;
+}
+
+.float_div_right {
+	position: fixed;
+	right: 0;
+	top: 130px;
+	width: 90px;
+	min-height: 200px;
+	z-index: 5;
+/*	border:#00ccff medium solid;*/
+/*	background-color:#00ccff;*/
+	background-color:#FFF;
+
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-left-radius: 12px;
+
+	-moz-border-radius-topleft: 12px;
+	border-top-left-radius: 12px;
+
+}
+
+.float_div_top {
+	position: fixed;
+	top: 0px;
+	width: 98.2%;
+	height: 40px;
+	z-index: 99999;
+
+	border:#fff medium solid;
+	background-color:#fff;
+/*
+	border:#00ccff medium solid;
+	background-color:#00ccff;
+*/
+	/*
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	*/
+/*	
+	-moz-border-radius-bottomright: 12px;
+	border-bottom-right-radius: 12px;
+
+	-moz-border-radius-bottomleft: 12px;
+	border-bottom-left-radius: 12px;
+*/	
+
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;
+
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+
+
+	color:#FFF;
+}
+
+.float_div_bottom {
+	position: fixed;
+	bottom: 0px;
+	width: 98.5%;
+	height: 40px;
+	z-index: 5;
+	border:#00ccff medium solid;
+	background-color:#00ccff;
+
+/*
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+*/
+	-moz-border-radius-topright: 12px;
+	border-top-right-radius: 12px;
+
+	-moz-border-radius-topleft: 12px;
+	border-top-left-radius: 12px;
+
+	color:#FFF;
+}
+
+#signin_form input, #login_form input, #level_add_form input, #server_add_form input, .lilo_form input {
+/*	width: 280px;
+	font-size: 16px;
+	font-weight:bold;
+	margin: 5px 0px;
+	color: #FFF;
+	
+	padding: 6px 10px;
+	background: #00ccff;
+	border-width:1px;
+	border-color:#06C #09C #0CC;
+	
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+*/	
+}
+
+/*	http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css	*/
+::-webkit-input-placeholder {
+	color: #FFF;
+	font-family:Tahoma, Geneva, sans-serif;	/*hampir ok*/
+}
+:-moz-placeholder {
+	color: #FFF;
+	font-family:Tahoma, Geneva, sans-serif;	/*hampir ok*/
+}
+
+
+.label_text {
+/*	color:#06F;*/
+	color:#FFF;
+	font-size:18px;
+	text-align:left;
+	font-weight:bold;
+}
+
+/* needed by jquery placeholder */
+/*	for the damn browser don't support html5	*/
+label.placeholder {
+	cursor: text;				/*	display a cursor to match the text input	*/
+	padding: 12px 4px 4px 8px;   /* this should match the border+padding for the input field(s)	*/
+	color: #FFF;				/* this will display as faded */
+	font-size: 16px;
+	font-weight:bold;
+}
+
+
+/*	http://stackoverflow.com/questions/1156985/jquery-cycle-ie7-transparent-png-problem	*/
+img {
+	background: transparent;
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */
+	zoom: 1;
+}
+
+a {
+	cursor:pointer;	
+}
+
+ul#icons {margin: 0; padding: 0;}
+ul#icons li {margin: 6px; position: relative; padding: 6px 2px; cursor: pointer; float: left;  list-style: none;}
+ul#icons span.ui-icon {float: left; margin: 0 4px;}
+
+.box_rotate {
+	-moz-transform: rotate(7.5deg);  /* FF3.5+ */
+	-o-transform: rotate(7.5deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(7.5deg);  /* Saf3.1+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; /* IE8 */
+}
+
+.box_rotate_90 {
+	-moz-transform: rotate(90deg);  /* FF3.5+ */
+	-o-transform: rotate(90deg);  /* Opera 10.5 */
+	-webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+	filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5);  /* IE6,IE7 = 7.5/90 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.5)"; /* IE8 */
+}
+
+.avatarChange, .facePartChange, .preview_avatar, .avatarCategoryChange, .facePartCategoryChange {
+	font-size:9px;
+	margin:5px;
+}
+
+
+/*
+Webkit Scrollbar
+Source: http://css-tricks.com/examples/WebKitScrollbars/
+*/
+/*
+::-webkit-scrollbar { width: 12px; } 
+::-webkit-scrollbar:horizontal { height: 12px; } 
+*/
+/* Track */
+/*
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); -webkit-border-radius: 1px; border-radius: 0px; } 
+*/
+/* Handle */
+/*
+::-webkit-scrollbar-thumb { -webkit-border-radius: 0px; border-radius: 1px; background: rgba(52,52,52,0.8); -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); } 
+::-webkit-scrollbar-thumb:window-inactive { background: rgba(52,52,52,0.4); }
+*/
+
+/*
+TOP ICONS etc
+*/
+
+.top_profile_picture{
+	width:70px; 
+	height:70px;
+}
+
+.top_profile_icon{
+	height:30px; 
+	padding:0 10px; 
+	float:right; 
+	min-width:20px; 
+	cursor:pointer;
+}
+
+.top_profile_icon_notification{
+	background:url(../images_popbloopdark/icons/notification.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_notification:hover{
+	background:url(../images_popbloopdark/icons/notification.hover.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_msg{
+	background:url(../images_popbloopdark/icons/msg.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_msg:hover{
+	background:url(../images_popbloopdark/icons/msg.hover.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_friend{
+	background:url(../images_popbloopdark/icons/friend.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_friend:hover{
+	background:url(../images_popbloopdark/icons/friend.hover.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_logout{
+	background:url(../images_popbloopdark/icons/logout.png) left bottom no-repeat; 
+}
+
+.top_profile_icon_logout:hover{
+	background:url(../images_popbloopdark/icons/logout.hover.png) left bottom no-repeat; 
+}
+
+.top_profile_notification_text{
+	font-size:10px; 
+	padding:0px 0 0 0px; 
+	background-color:#F00; 
+	color:#FFF; 
+	height:14px; 
+	text-align:center; 
+	margin-top:4px; 
+	border:#454545 1px solid;
+}
+
+
+
+.msg_header{
+	text-align:left;
+	width:100%;
+	height:30px;
+	font-size:14px;
+	font-weight:bolder;
+	color:#FFF;
+	text-transform:uppercase;
+}
+
+.msg_content{
+	
+}
+
+.msg_shout_area{
+	min-height:27px;
+	max-height:27px;
+	max-width:460px;
+	min-width:460px;
+	font-size:12px;
+	font-family:'Droid Sans',sans-serif;
+}
+
+
+input.middle:focus {
+		outline-width: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+
+.round_left{
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.round_right{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 0;
+	border-top-left-radius: 0;
+}
+
+
+
+.bottom_menu{
+	padding: 8px 5px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+
+.bottom_menu a{
+	margin: 0 6px;
+}

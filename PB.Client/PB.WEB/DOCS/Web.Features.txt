@@ -1,0 +1,47 @@
+unregistered user:
+1. sign-up & sign-in
+2. informasi game (how to play dll)
+3. blog (utk info  bantu SEO)
+
+registered user:
+a. fitur yg ada di setiap halaman:
+	0. home & logout
+	1. user account information (icon: Fullname & avatar / profile photo user). link ke b6.
+	2. notification: new message (link ke b5), friend invitation (link ke b4), announcement (popup) etc
+	3. game related info: energy level, inventory (link ke b3) etc
+	4. help: how to play etc (popup)
+	5. chat: friend list grouped by circle
+
+b. daftar halaman:
+	1. avatar editor: 
+	  1.1 kiri: avatar preview (unity)
+	  1.2 kanan: avatar part chooser,
+
+	2. play:
+	  2.1 atas: webplayer (kalo bisa ukuran 960 x 540)
+	  2.2 bawah: info kontrol, cara bermain dll
+
+	3. statistics:
+	  3.1 tab 1: game achievement (energy dll)
+	  3.2 tab 2: inventory: game items
+
+	4. friends:
+	  4.1 tab 1: 
+		- bagian atas: search form
+		- bagian bawah: friend list / search result
+			untuk setiap friend dapat dilakukan operasi: view detail (pop up detail user), delete (unfriend), edit circle
+	  4.2 tab 2: 
+		- bagian atas: search form
+		- bagian bawah: user list / search result
+			untuk setiap user dapat dilakukan operasi: view detail (pop up detail user), add as friend (popup utk pilih circle)
+
+	  4.3 tab 3: 
+		- friend invitation: list user yang invite current user utk menjadi friend. operasi yg dapat dilakukan: accept or ignore invitation
+
+	5. messages:
+	  5.1 tab 1: list new messages
+	  5.2 tab 2: list messages by user
+	  5.3 tab 3 - x: full message yg dipilih di tab 1 atau 2, termasuk form utk reply
+		
+
+	6. my account: halaman utk menampilkan + edit detail account dari current user (fullname, profile picture, password dll)

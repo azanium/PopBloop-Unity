@@ -1,0 +1,376 @@
+body {
+	color:#cccccc;
+	background-color:/*#151515*/#1f1f1f;
+	font-family: 'Droid Sans', sans-serif;
+/*	font-family:'Segoe UI',Arial,Sans-Serif;*/
+	font-size:11px;
+/*	font-weight:800;*/
+	font-weight:400;
+	min-height:650px;
+}
+
+input.middle:focus, textarea:focus {
+		outline-width: 0;
+}
+
+input:focus, textarea:focus {
+	outline: none;
+}
+
+
+.pop_header {
+/*	height:150px;*/
+/*	height:100px;*/
+/*	height:170px;*/
+	height:138px;
+	background:url(../popbloop.img/popbloop.png) center left no-repeat;
+}
+
+.pop_main_menu{
+	background:url(../popbloop.img/header.bg.343434.png) center top no-repeat transparent;
+}
+
+.pop_main_menu_left{
+	height:40px;
+	background-color:#343434;
+}
+.pop_main_menu_right{
+	height:40px;
+/*	background:url(../popbloop.img/pop_main_menu_bg.png) right top no-repeat #343434;*/
+}
+
+.pop_main_menu_item{
+	height:31px; 
+	float:left;
+	padding:9px 32px 0px 32px;
+	cursor:pointer;
+
+/*	font-weight:bold;*/
+	font-weight:normal;
+	font-size:13px;
+	letter-spacing:1px;
+}
+
+.pop_main_menu_item:hover{
+	background-color:#00CCFF;
+}
+.pop_20_spacer{
+	height:20px;
+}
+.pop_webplayer{
+	height:400px;
+/*	background:url(popbloop.img/webplayer.jpg) top center no-repeat;*/
+}
+.pop_news{
+	height:220px;
+}
+.bottom_toolbar{
+
+	bottom:0;
+	height:24px;
+	position:fixed;
+	z-index: 9999999;
+
+	background:url(../popbloop.img/bottom.toolbar.bg.png) repeat-x #343434;
+	left:6px;
+	right:6px;
+  
+/*
+  background:-webkit-gradient(linear,left top,left bottom,from(#343434),to(#000000));
+  background:-moz-linear-gradient(top,#343434,#000000);
+  background:-webkit-linear-gradient(top,#343434,#000000);
+  background:-o-linear-gradient(top,#343434,#000000);
+  background:linear-gradient(top,#343434,#000000);
+  
+*/
+  border:#343434 solid 1px;
+  border-bottom-width:0px;
+}
+
+.feature_box{
+	height:220px;
+	background:url(../popbloop.img/featured/feature.bg.long.png) repeat-x #ffffff;
+	background-position:0px 0px;
+	text-align:center;
+	cursor:pointer;
+}
+
+
+.feature_box:hover{
+	background-position:0px -220px;
+}
+
+
+#feature_box_1{
+	background:url(../popbloop.img/featured/001.png) top center no-repeat;
+	width:100%;
+	height:160px;
+}
+#feature_box_2{
+	background:url(../popbloop.img/featured/002.png) top center no-repeat;
+	width:100%;
+	height:160px;
+}
+#feature_box_3{
+	background:url(../popbloop.img/featured/003.png) top center no-repeat;
+	width:100%;
+	height:160px;
+}
+#feature_box_4{
+	background:url(../popbloop.img/featured/004.png) top center no-repeat;
+	width:100%;
+	height:160px;
+}
+.feature_box_content{
+	background-color:#00CCFF;
+	height:60px;
+	font-size:15px;
+
+
+	display: table;
+	overflow: hidden;
+	width: 220px;
+}
+.feature_box_content:hover{
+	background-color:#FFFFFF;
+	color:#333;
+}
+.feature_box_content_text{
+	vertical-align:middle;
+	text-align:center;
+
+	display: table-cell;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+
+#slidedeck_frame {
+	width: 890px;
+	height: 337px;
+}
+
+#login_box_top{
+	width:300px;
+	height:20px;
+/*	background-color:#00F;*/
+	float:right;
+	top:0;
+	right:0;
+	position:relative;
+}
+
+#login_box_top_sign_in, #login_box_top_sign_up{
+	width:90px;
+	float:right;
+	text-align:center;
+	cursor:pointer;
+	height:20px;
+}
+
+#login_box_top_sign_in:hover, #login_box_top_sign_up:hover{
+	background-color:#00CCFF;
+	color:#FFF;
+}
+
+#login_box_bottom{
+	width:300px;
+	height:100%;
+	float:right;
+	top:0;
+	right:0;
+	position:relative;
+	color:#FFF;
+	
+	
+}
+
+#login_box_bottom_sign_in, #login_box_bottom_sign_up{
+	display:none;
+
+	width:260px;
+/*	max-height:125px;*/
+/*
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-bottomleft:5px;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-top-left-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+
+	border-radius: 5px 0px 5px 5px;
+*/
+	background-color:#00CCFF;
+	float:right;
+	
+	right:0;
+	
+	position:absolute;
+	z-index:100;
+}
+
+.shadow{
+  -moz-box-shadow: 0px 0px 4px #CCC;
+  -webkit-box-shadow: 0px 0px 4px #CCC;
+  box-shadow: 0px 0px 4px #CCC;
+}
+
+#sign_up_arrow, #sign_in_arrow{
+/*	background:url(images/page-images/loginbar/toggle_down_light.png) no-repeat scroll 0 0 transparent; */
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:0 0;
+	background-color:transparent;
+	background-image:url(../images/page-images/loginbar/toggle_down_light.png);
+	display:inline-block; 
+	height:13px; 
+	left:4px; 
+	position:relative; 
+	top:-1px; 
+	vertical-align:middle; 
+	width:20px;	
+}
+
+.sign_content{
+/*	background-color:#FFF;*/
+	height:28px;
+	position:relative;
+	
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	float:left;
+	width:100%;
+}
+
+.sign_content input[type=text]{
+	background:none repeat scroll 0 0 /*#151515*/ #FFFFFF;
+/*	border:1px solid #1488CD;*/
+	border:1px solid #FFFFFF;
+/*	box-shadow:0px 0px 2px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.2);*/
+/*	box-shadow:0px 0px 2px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.2);*/
+	color:#666666;
+/*	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.4);*/
+	width:90%;
+/*	border-radius: 3px 3px 3px 3px;*/
+}
+
+.sign_content input[type=text]:hover{
+/*	box-shadow:0px 0px 4px rgba(0, 0, 0.5, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.2);*/
+	/*
+  -moz-box-shadow: 0px 0px 4px #CCC;
+  -webkit-box-shadow: 0px 0px 4px #CCC;
+  box-shadow: 0px 0px 4px #CCC;
+	*/
+}
+
+.sign_content input[type=password]{
+	background:none repeat scroll 0 0 /*#151515*/ #FFFFFF;
+/*	border:1px solid #1488CD;*/
+	border:1px solid #FFFFFF;
+/*	box-shadow:0px 0px 2px rgba(0, 0, 0, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.2);*/
+/*	box-shadow:0px 0px 2px rgba(255, 255, 255, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.2);*/
+	color:#666666;
+/*	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.4);*/
+	width:90%;
+/*	border-radius: 3px 3px 3px 3px;*/
+}
+
+.sign_content input[type=password]:hover{
+/*	box-shadow:0px 0px 4px rgba(0, 0, 0.5, 0.3) inset, 0 1px 0 rgba(255, 255, 255, 0.2);*/
+	/*
+  -moz-box-shadow: 0px 0px 4px #CCC;
+  -webkit-box-shadow: 0px 0px 4px #CCC;
+  box-shadow: 0px 0px 4px #CCC;
+	*/
+}
+
+.sign_content input[type=button]{
+	background: url("../images/page-images/loginbar/bg-btn.gif") repeat-x scroll 0 0 #DDDDDD;
+/*	border-radius: 3px 3px 3px 3px;*/
+	cursor: pointer;
+/*	border-color: #BBBBBB #BBBBBB #999999;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 0 #F8F8F8;
+	color: #333333 !important;
+	display: inline-block;*/
+/*	font: 12px/15px Helvetica Neue,Arial,"Lucida Grande",Sans-serif;*/
+	margin: 0;
+/*	overflow: hidden;
+	padding: 5px 9px;
+	text-shadow: 0 1px #F0F0F0;*/
+	border:thin solid #FFF;
+	background-color:#FFF;
+}
+
+.sign_content input[type=checkbox]{
+	border:1px solid #FFF;
+	background-color:#FFF;
+}
+
+
+
+/*	Mukhtar addition, source: http://stackoverflow.com/questions/1775532/css-grid-system-for-forms-multi-column	*/
+._25 {
+    width: 21%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._50 {
+    width: 46%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._75 {
+    width: 71%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+._100 {
+    width: 96%;
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+label {
+/*    width: 100%;*/
+}
+input {
+	border: 0;
+/*    border: 1px solid #B3B3B3;*/
+/*    width: 100%;*/
+/*    -moz-border-radius: 3px;*/
+}
+textarea {
+	border: 0;
+/*    border: 1px solid #B3B3B3;*/
+    width: 100%;
+/*    -moz-border-radius: 3px;*/
+}
+select {
+    border: 1px solid #B3B3B3;
+    width: 100%;
+/*    -moz-border-radius: 3px;*/
+}
+
+
+/*	Mukhtar	*/
+.pop_error_msg{
+/*	border:#F00 thin solid;
+	background-color:#F63;*/
+	color:#F00;
+}
+.pop_status_msg{
+/*	border:#00F thin solid;
+	background-color:#0CF;*/
+	color:#0CF;
+}

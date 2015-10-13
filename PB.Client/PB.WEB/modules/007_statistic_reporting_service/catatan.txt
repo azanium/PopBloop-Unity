@@ -1,0 +1,41 @@
+Dari unity, untuk akses API terkait achievement, gunakan:
+/report/guest/achievement/[user_id]/[achievement_type]/[operation]/[value]
+
+[user_id]
+...
+
+[achievement_type]
+energy
+online_time
+invite_friend
+...
+
+[operation]
+get : memperoleh nilai yg ada di db
+set : mengubah nilai yg ada di db menjadi [value]
+inc : menambah nilai yg ada di db sebesar [value]
+dec : mengurangi nilai yg ada di db sebesar [value]
+
+[value]
+nilai yg digunakan untuk update data
+
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+implement di client (utk tiap user):
+1. online_time: 
+2. invite_friend:
+3. ...
+
+
+\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/
+
+Daily Report
+1. New Member: dari Users.Account.join_date (format timestamp)
+2. Total Visit: dapatkan dari table Logs.VisitorCounter (date, count)
+3. Unique Visitor: 
+
+
+
+
+

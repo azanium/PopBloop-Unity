@@ -1,0 +1,10 @@
+message Quest {
+required string questname = 1;
+}
+
+message Kroto {
+required int32 id = 1;
+required string name = 2;
+optional Quest quest = 3;
+}
+

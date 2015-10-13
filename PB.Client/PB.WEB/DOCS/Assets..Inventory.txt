@@ -1,0 +1,11 @@
+Inventory:
+
+tipe
+deskripsi
+icon
+uploader
+lilo_id
+
+InventoryPermission:
+inventory_lilo_id
+user_group_id

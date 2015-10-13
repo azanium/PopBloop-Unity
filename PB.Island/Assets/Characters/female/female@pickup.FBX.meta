@@ -1,0 +1,209 @@
+fileFormatVersion: 2
+guid: 74d841db156d3cc4ea532527bdfb56cb
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: RF10
+    100002: LF
+    100004: NU 3
+    100006: RF
+    100008: RTE
+    100010: NU 10
+    100012: RF5
+    100014: RF1
+    100016: RH
+    100018: P
+    100020: LFT
+    100022: root_joint
+    100024: LF9
+    100026: LF7
+    100028: LDA
+    100030: LF8
+    100032: RT
+    100034: RF2
+    100036: LF6
+    100038: RFT
+    100040: N
+    100042: LS
+    100044: NU 1
+    100046: LF5
+    100048: LF2
+    100050: RF9
+    100052: NU 6
+    100054: RF4
+    100056: LC
+    100058: S1
+    100060: LF10
+    100062: LH
+    100064: RCT
+    100066: //RootNode
+    100068: NU 4
+    100070: RF3
+    100072: LF1
+    100074: NU 8
+    100076: RF7
+    100078: LTE
+    100080: NU
+    100082: RDA
+    100084: NU 7
+    100086: NU 9
+    100088: RF6
+    100090: NU 5
+    100092: RF8
+    100094: NU 2
+    100096: RS
+    100098: LT
+    100100: RUA
+    100102: LCT
+    100104: S2
+    100106: NU 12
+    100108: LF3
+    100110: RC
+    100112: LF4
+    100114: LUA
+    100116: NU 11
+    100118: H
+    400000: RF10
+    400002: LF
+    400004: NU 3
+    400006: RF
+    400008: RTE
+    400010: NU 10
+    400012: RF5
+    400014: RF1
+    400016: RH
+    400018: P
+    400020: LFT
+    400022: root_joint
+    400024: LF9
+    400026: LF7
+    400028: LDA
+    400030: LF8
+    400032: RT
+    400034: RF2
+    400036: LF6
+    400038: RFT
+    400040: N
+    400042: LS
+    400044: NU 1
+    400046: LF5
+    400048: LF2
+    400050: RF9
+    400052: NU 6
+    400054: RF4
+    400056: LC
+    400058: S1
+    400060: LF10
+    400062: LH
+    400064: RCT
+    400066: //RootNode
+    400068: NU 4
+    400070: RF3
+    400072: LF1
+    400074: NU 8
+    400076: RF7
+    400078: LTE
+    400080: NU
+    400082: RDA
+    400084: NU 7
+    400086: NU 9
+    400088: RF6
+    400090: NU 5
+    400092: RF8
+    400094: NU 2
+    400096: RS
+    400098: LT
+    400100: RUA
+    400102: LCT
+    400104: S2
+    400106: NU 12
+    400108: LF3
+    400110: RC
+    400112: LF4
+    400114: LUA
+    400116: NU 11
+    400118: H
+    4300000: Body_Legs_Medium
+    4300002: Body_Hand
+    4300004: Body_Foot
+    4300006: Head
+    4300008: Body_Medium
+    4300010: Hair1_Top
+    4300012: Short_Shirt_Medium
+    4300014: Long_Pants_Medium
+    4300016: Skirt_Medium
+    4300018: Long_Shirt_Medium
+    4300020: Short_Pants_Medium
+    4300022: Shoes_02
+    4300024: Shoes_01
+    4300026: Hair1_Bottom
+    4300028: Hair3_Bottom
+    4300030: Body_Fat
+    4300032: Body_Legs_Fat
+    4300034: Body_Thin
+    4300036: Body_Legs_Thin
+    4300038: Short_Shirt_Fat
+    4300040: Long_Pants_Fat
+    4300042: Short_Pants_Fat
+    4300044: Long_Shirt_Fat
+    4300046: Skirt_Fat_fat
+    4300048: Short_Shirt_Thin
+    4300050: Long_Pants_thin
+    4300052: Long_Shirt_Thin
+    4300054: Skirt_Thin
+    4300056: Short_Pants_Thin
+    4300058: Hair2_Bottom
+    4300060: Hair3_Top
+    4300062: Hair2_Top
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

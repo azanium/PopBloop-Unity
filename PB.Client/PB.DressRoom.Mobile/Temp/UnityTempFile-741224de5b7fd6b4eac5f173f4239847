@@ -1,0 +1,73 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp-firstpass.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/Managed/UnityEngine.dll"
+-r:Assets/Plugins/Jint.dll
+-r:Assets/Plugins/LitJson.dll
+-r:Assets/Plugins/P31RestKit.dll
+-r:Assets/Plugins/PB.Client.dll
+-r:Assets/Plugins/PB.Common.dll
+-r:Assets/Plugins/PB.Game.dll
+-r:Assets/Plugins/Photon3Unity3D.dll
+-r:Assets/Plugins/protobuf-net.dll
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_0
+-define:UNITY_4_3
+Assets/Plugins/MiniJSON.cs
+Assets/Plugins/SocialNetworking/FacebookAndroid.cs
+Assets/Plugins/SocialNetworking/FacebookBinding.cs
+Assets/Plugins/SocialNetworking/FacebookCommon/Facebook.cs
+Assets/Plugins/SocialNetworking/FacebookCommon/FacebookBatchRequest.cs
+Assets/Plugins/SocialNetworking/FacebookCommon/FacebookEventListener.cs
+Assets/Plugins/SocialNetworking/FacebookCommon/FacebookManager.cs
+Assets/Plugins/SocialNetworking/SocialNetworkingEventListener.cs
+Assets/Plugins/SocialNetworking/SocialNetworkingManager.cs
+Assets/Plugins/SocialNetworking/TwitterAndroid/TwitterAndroid.cs
+Assets/Plugins/SocialNetworking/TwitterAndroid/TwitterAndroidEventListener.cs
+Assets/Plugins/SocialNetworking/TwitterAndroid/TwitterAndroidManager.cs
+Assets/Plugins/SocialNetworking/TwitterBinding.cs
+Assets/Plugins/SocialNetworking/demoAndroid/FacebookUIManager.cs
+Assets/Plugins/SocialNetworking/demoAndroid/TwitterUIManager.cs
+Assets/Plugins/iTween.cs
+Assets/Plugins/iTweenPath.cs
+"Assets/Standard Assets/Image Effects (Pro Only)/BlurEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/ColorCorrectionEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/ContrastStretchEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/EdgeDetectEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/GlowEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/GrayscaleEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/ImageEffectBase.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/ImageEffects.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/MotionBlur.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/NoiseEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/SSAOEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/SepiaToneEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/TwirlEffect.cs"
+"Assets/Standard Assets/Image Effects (Pro Only)/VortexEffect.cs"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

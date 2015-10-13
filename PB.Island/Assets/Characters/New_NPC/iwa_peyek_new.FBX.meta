@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: a52e539bce374f849b3fcae0061f6fdf
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RCT01
+    100004: NU 5
+    100006: RTE01
+    100008: RF21
+    100010: RC01
+    100012: RT01
+    100014: LCT01
+    100016: NU 4
+    100018: LTE01
+    100020: LF21
+    100022: LC01
+    100024: LT01
+    100026: NU 1
+    100028: H01
+    100030: RFT01
+    100032: NU 24
+    100034: RF20
+    100036: RF19
+    100038: NU 23
+    100040: RF18
+    100042: RF17
+    100044: NU 22
+    100046: RF16
+    100048: RF15
+    100050: NU 21
+    100052: RF14
+    100054: RF13
+    100056: NU 20
+    100058: RF12
+    100060: RF11
+    100062: RH01
+    100064: RDA01
+    100066: RUA01
+    100068: RS01
+    100070: LFT01
+    100072: NU 19
+    100074: LF20
+    100076: LF19
+    100078: NU 18
+    100080: LF18
+    100082: LF17
+    100084: NU 17
+    100086: LF16
+    100088: LF15
+    100090: NU 16
+    100092: LF14
+    100094: LF13
+    100096: NU01
+    100098: LF12
+    100100: LF11
+    100102: LH01
+    100104: LDA01
+    100106: LUA01
+    100108: LS01
+    100110: N01
+    100112: S04
+    100114: S03
+    100116: P01
+    100118: root_joint01
+    100120: Object01
+    100122: RCT
+    100124: NU 3
+    100126: RTE
+    100128: RF
+    100130: RC
+    100132: RT
+    100134: LCT
+    100136: NU 2
+    100138: LTE
+    100140: LF
+    100142: LC
+    100144: LT
+    100146: NU
+    100148: H
+    100150: RFT
+    100152: NU 11
+    100154: RF9
+    100156: RF10
+    100158: NU 15
+    100160: RF7
+    100162: RF8
+    100164: NU 14
+    100166: RF5
+    100168: RF6
+    100170: NU 13
+    100172: RF3
+    100174: RF4
+    100176: NU 12
+    100178: RF1
+    100180: RF2
+    100182: RH
+    100184: RDA
+    100186: RUA
+    100188: RS
+    100190: LFT
+    100192: NU 6
+    100194: LF9
+    100196: LF10
+    100198: NU 10
+    100200: LF7
+    100202: LF8
+    100204: NU 9
+    100206: LF5
+    100208: LF6
+    100210: NU 8
+    100212: LF3
+    100214: LF4
+    100216: NU 7
+    100218: LF1
+    100220: LF2
+    100222: LH
+    100224: LDA
+    100226: LUA
+    100228: LS
+    100230: N
+    100232: S1
+    100234: S2
+    100236: P
+    100238: root_joint
+    100240: Object04
+    100242: Object02
+    100244: ' bip01 Footsteps01'
+    100246: ' bip01 Footsteps'
+    400000: //RootNode
+    400002: RCT01
+    400004: NU 5
+    400006: RTE01
+    400008: RF21
+    400010: RC01
+    400012: RT01
+    400014: LCT01
+    400016: NU 4
+    400018: LTE01
+    400020: LF21
+    400022: LC01
+    400024: LT01
+    400026: NU 1
+    400028: H01
+    400030: RFT01
+    400032: NU 24
+    400034: RF20
+    400036: RF19
+    400038: NU 23
+    400040: RF18
+    400042: RF17
+    400044: NU 22
+    400046: RF16
+    400048: RF15
+    400050: NU 21
+    400052: RF14
+    400054: RF13
+    400056: NU 20
+    400058: RF12
+    400060: RF11
+    400062: RH01
+    400064: RDA01
+    400066: RUA01
+    400068: RS01
+    400070: LFT01
+    400072: NU 19
+    400074: LF20
+    400076: LF19
+    400078: NU 18
+    400080: LF18
+    400082: LF17
+    400084: NU 17
+    400086: LF16
+    400088: LF15
+    400090: NU 16
+    400092: LF14
+    400094: LF13
+    400096: NU01
+    400098: LF12
+    400100: LF11
+    400102: LH01
+    400104: LDA01
+    400106: LUA01
+    400108: LS01
+    400110: N01
+    400112: S04
+    400114: S03
+    400116: P01
+    400118: root_joint01
+    400120: Object01
+    400122: RCT
+    400124: NU 3
+    400126: RTE
+    400128: RF
+    400130: RC
+    400132: RT
+    400134: LCT
+    400136: NU 2
+    400138: LTE
+    400140: LF
+    400142: LC
+    400144: LT
+    400146: NU
+    400148: H
+    400150: RFT
+    400152: NU 11
+    400154: RF9
+    400156: RF10
+    400158: NU 15
+    400160: RF7
+    400162: RF8
+    400164: NU 14
+    400166: RF5
+    400168: RF6
+    400170: NU 13
+    400172: RF3
+    400174: RF4
+    400176: NU 12
+    400178: RF1
+    400180: RF2
+    400182: RH
+    400184: RDA
+    400186: RUA
+    400188: RS
+    400190: LFT
+    400192: NU 6
+    400194: LF9
+    400196: LF10
+    400198: NU 10
+    400200: LF7
+    400202: LF8
+    400204: NU 9
+    400206: LF5
+    400208: LF6
+    400210: NU 8
+    400212: LF3
+    400214: LF4
+    400216: NU 7
+    400218: LF1
+    400220: LF2
+    400222: LH
+    400224: LDA
+    400226: LUA
+    400228: LS
+    400230: N
+    400232: S1
+    400234: S2
+    400236: P
+    400238: root_joint
+    400240: Object04
+    400242: Object02
+    400244: ' bip01 Footsteps01'
+    400246: ' bip01 Footsteps'
+    4300000: Object04
+    4300002: Object01
+    7400000: iwa peyek
+    11100000: //RootNode
+    13700000: Object01
+    13700002: Object04
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

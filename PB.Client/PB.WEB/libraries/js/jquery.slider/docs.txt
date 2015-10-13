@@ -1,0 +1,44 @@
+.slider( options )
+
+Description: Initialize and start sliding the elements inside current selector.
+Options
+
+
+autoplay (boolean)
+    Default: true. Autoplay slides
+showControls (boolean)
+    Show controls for previous & next
+showProgress (boolean)
+    Show progress with funny dots
+hoverPause (boolean)
+    Pause on hover
+wait (integer)
+    Milliseconds to wait before next frame
+fade (integer)
+    Milliseconds to fade
+direction ([left|right])
+    Default: left. Images will slide to this direction
+randomize (boolean)
+    Default: false. Randomizes starting slide.
+rewind (function)
+    Callback on rewind
+slidebefore (function)
+    Called before slide
+slideafter (function)
+    Called after slide
+
+
+Examples
+<head> stuff
+
+        <script type="text/javascript" src="js/jquery.slider.min.js"></script>
+        <link href="css/jquery.slider.css" rel="stylesheet" type="text/css" />
+                
+
+Example with options
+
+        $('#slider').slider({autoplay: false, randomize: true});
+
+Basic example
+
+        $('#slider').slider();

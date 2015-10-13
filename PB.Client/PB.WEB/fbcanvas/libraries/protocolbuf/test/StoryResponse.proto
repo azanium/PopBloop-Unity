@@ -1,0 +1,8 @@
+message StoryResponse {
+enum ResponseType {
+SUCCESS = 0;
+FAILED = 1;
+}
+required ResponseType status = 1;
+optional string story = 2;
+}

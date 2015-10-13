@@ -1,0 +1,43 @@
+
+Log Time: 2012/07/07 11:04:27 
+
+File upload attack attempt: username: mukhtar, user_id: 4dfb2bb2c1b4bac41c000000, 2012-07-07 11:04:27
+Array
+(
+    [asset_admin_level_add_file_level] => Array
+        (
+            [name] => Jakcloth_island_tanggal7_brand.zip
+            [type] => application/zip
+            [tmp_name] => D:\Server\PHP\tmp\php29E7.tmp
+            [error] => 0
+            [size] => 18265578
+        )
+
+    [asset_admin_level_add_file_skybox] => Array
+        (
+            [name] => sunny3skybox.unity3d
+            [type] => application/vnd.unity
+            [tmp_name] => D:\Server\PHP\tmp\php7336.tmp
+            [error] => 0
+            [size] => 327996
+        )
+
+    [asset_admin_level_add_file_audio] => Array
+        (
+            [name] => sadarkan_aku11.ogg
+            [type] => video/ogg
+            [tmp_name] => D:\Server\PHP\tmp\php748F.tmp
+            [error] => 0
+            [size] => 861229
+        )
+
+    [asset_admin_level_add_file_preview_level] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)

@@ -1,0 +1,3 @@
+Generate Key dan CSR
+
+openssl.exe req -new -newkey rsa:2048 -nodes -keyout popbloop.com.key -out popbloop.com.csr -config D:\Server\WebServer\conf\openssl.cnf

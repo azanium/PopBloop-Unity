@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: ebcc4f4eaa2d3da4585a901fa33bf0ae
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Body_Legs_Medium
+    100002: Short_Shirt_Thin
+    100004: Short_Pants_Thin
+    100006: Short_Pants_Medium
+    100008: Long_Pants_Medium
+    100010: Long_Shirt_Medium
+    100012: Short_Shirt_Medium
+    100014: //RootNode
+    100016: Skirt_Thin
+    100018: Long_Shirt_Thin
+    100020: Long_Pants_New
+    100022: Skirt_Fat_New
+    100024: Long_Shirt_Fat
+    100026: Short_Pants_Fat
+    100028: Long_Pants_Fat
+    100030: Short_Shirt_Fat
+    100032: Body_Legs_Thin
+    100034: Body_Thin
+    100036: Body_Legs_Fat
+    100038: Body_Fat
+    100040: Hair3_Bottom
+    100042: Hair1_Bottom
+    100044: Shoes _01
+    100046: Shoes _02
+    100048: Skirt_Medium
+    100050: Hair1_Top
+    100052: RCT
+    100054: NU 2
+    100056: RTE
+    100058: RF
+    100060: RC
+    100062: RT
+    100064: LCT
+    100066: NU 1
+    100068: LTE
+    100070: LF
+    100072: LC
+    100074: LT
+    100076: Hair2_Top
+    100078: Hair3_Top
+    100080: Hair2_Bottom
+    100082: NU
+    100084: H
+    100086: RFT
+    100088: NU 8
+    100090: RF9
+    100092: RF10
+    100094: NU 12
+    100096: RF7
+    100098: RF8
+    100100: NU 11
+    100102: RF5
+    100104: RF6
+    100106: NU 10
+    100108: RF3
+    100110: RF4
+    100112: NU 9
+    100114: RF1
+    100116: RF2
+    100118: RH
+    100120: RDA
+    100122: RUA
+    100124: RS
+    100126: LFT
+    100128: NU 3
+    100130: LF9
+    100132: LF10
+    100134: NU 7
+    100136: LF7
+    100138: LF8
+    100140: NU 6
+    100142: LF5
+    100144: LF6
+    100146: NU 5
+    100148: LF3
+    100150: LF4
+    100152: NU 4
+    100154: LF1
+    100156: LF2
+    100158: LH
+    100160: LDA
+    100162: LUA
+    100164: LS
+    100166: N
+    100168: S1
+    100170: S2
+    100172: P
+    100174: root_joint
+    100176: Body_Medium
+    100178: Head
+    100180: Body_Foot
+    100182: Body_Hand
+    400000: Body_Legs_Medium
+    400002: Short_Shirt_Thin
+    400004: Short_Pants_Thin
+    400006: Short_Pants_Medium
+    400008: Long_Pants_Medium
+    400010: Long_Shirt_Medium
+    400012: Short_Shirt_Medium
+    400014: //RootNode
+    400016: Skirt_Thin
+    400018: Long_Shirt_Thin
+    400020: Long_Pants_New
+    400022: Skirt_Fat_New
+    400024: Long_Shirt_Fat
+    400026: Short_Pants_Fat
+    400028: Long_Pants_Fat
+    400030: Short_Shirt_Fat
+    400032: Body_Legs_Thin
+    400034: Body_Thin
+    400036: Body_Legs_Fat
+    400038: Body_Fat
+    400040: Hair3_Bottom
+    400042: Hair1_Bottom
+    400044: Shoes _01
+    400046: Shoes _02
+    400048: Skirt_Medium
+    400050: Hair1_Top
+    400052: RCT
+    400054: NU 2
+    400056: RTE
+    400058: RF
+    400060: RC
+    400062: RT
+    400064: LCT
+    400066: NU 1
+    400068: LTE
+    400070: LF
+    400072: LC
+    400074: LT
+    400076: Hair2_Top
+    400078: Hair3_Top
+    400080: Hair2_Bottom
+    400082: NU
+    400084: H
+    400086: RFT
+    400088: NU 8
+    400090: RF9
+    400092: RF10
+    400094: NU 12
+    400096: RF7
+    400098: RF8
+    400100: NU 11
+    400102: RF5
+    400104: RF6
+    400106: NU 10
+    400108: RF3
+    400110: RF4
+    400112: NU 9
+    400114: RF1
+    400116: RF2
+    400118: RH
+    400120: RDA
+    400122: RUA
+    400124: RS
+    400126: LFT
+    400128: NU 3
+    400130: LF9
+    400132: LF10
+    400134: NU 7
+    400136: LF7
+    400138: LF8
+    400140: NU 6
+    400142: LF5
+    400144: LF6
+    400146: NU 5
+    400148: LF3
+    400150: LF4
+    400152: NU 4
+    400154: LF1
+    400156: LF2
+    400158: LH
+    400160: LDA
+    400162: LUA
+    400164: LS
+    400166: N
+    400168: S1
+    400170: S2
+    400172: P
+    400174: root_joint
+    400176: Body_Medium
+    400178: Head
+    400180: Body_Foot
+    400182: Body_Hand
+    4300000: Body_Legs_Medium
+    4300002: Body_Hand
+    4300004: Body_Foot
+    4300006: Head
+    4300008: Body_Medium
+    4300010: Hair2_Bottom
+    4300012: Hair3_Top
+    4300014: Hair2_Top
+    4300016: Hair1_Top
+    4300018: Short_Shirt_Medium
+    4300020: Long_Pants_Medium
+    4300022: Skirt_Medium
+    4300024: Long_Shirt_Medium
+    4300026: Short_Pants_Medium
+    4300028: Shoes _02
+    4300030: Shoes _01
+    4300032: Hair1_Bottom
+    4300034: Hair3_Bottom
+    4300036: Body_Fat
+    4300038: Body_Legs_Fat
+    4300040: Body_Thin
+    4300042: Body_Legs_Thin
+    4300044: Short_Shirt_Fat
+    4300046: Long_Pants_Fat
+    4300048: Short_Pants_Fat
+    4300050: Long_Shirt_Fat
+    4300052: Skirt_Fat_New
+    4300054: Short_Shirt_Thin
+    4300056: Long_Pants_New
+    4300058: Long_Shirt_Thin
+    4300060: Skirt_Thin
+    4300062: Short_Pants_Thin
+    7400000: Take 001
+    11100000: //RootNode
+    13700000: Body_Legs_Medium
+    13700002: Short_Shirt_Thin
+    13700004: Short_Pants_Thin
+    13700006: Short_Pants_Medium
+    13700008: Long_Pants_Medium
+    13700010: Long_Shirt_Medium
+    13700012: Short_Shirt_Medium
+    13700014: Skirt_Thin
+    13700016: Long_Shirt_Thin
+    13700018: Long_Pants_New
+    13700020: Skirt_Fat_New
+    13700022: Long_Shirt_Fat
+    13700024: Short_Pants_Fat
+    13700026: Long_Pants_Fat
+    13700028: Short_Shirt_Fat
+    13700030: Body_Legs_Thin
+    13700032: Body_Thin
+    13700034: Body_Legs_Fat
+    13700036: Body_Fat
+    13700038: Hair3_Bottom
+    13700040: Hair1_Bottom
+    13700042: Shoes _01
+    13700044: Shoes _02
+    13700046: Skirt_Medium
+    13700048: Hair1_Top
+    13700050: Hair2_Top
+    13700052: Hair3_Top
+    13700054: Hair2_Bottom
+    13700056: Body_Medium
+    13700058: Head
+    13700060: Body_Foot
+    13700062: Body_Hand
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

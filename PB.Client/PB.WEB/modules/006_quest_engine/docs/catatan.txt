@@ -1,0 +1,61 @@
+Array
+(
+    [dialog_story_name] => Dialog Story 002
+    [dialog_story_description] => Dialog Story 002 Description...
+    [description] => Array
+        (
+            [0] => Dimana Ibukota Indonesia?
+            [1] => Berapa ukuran sepatu Anda?
+        )
+
+    [select_options_1_1] => 0
+    [option_content_choice_1_1] => Jakarta
+    [select_options_1_2] => 0
+    [option_content_choice_1_2] => Bandung
+    [select_options_1_3] => 0
+    [option_content_choice_1_3] => Bogor
+    [select_options_2_4] => 0
+    [option_content_choice_2_4] => 40
+    [select_options_2_5] => 0
+    [option_content_choice_2_5] => 41
+    [select_options_2_6] => 0
+    [option_content_choice_2_6] => 42
+)
+
+
+
+==============
+
+			// setelah masuk ke dialog_story, masukkan ke dialog
+			/*
+        "all_variable_2" : {
+                "dialog_story_name" : "First",
+                "dialog_story_description" : "",
+
+
+                "dialogid_1" : "0",
+                "description_1" : "Hello, my name AZA!",
+								
+                "select_options_1_1" : "0",
+                "option_content_choice_1_1" : "OK, continue",
+                "nextidoption_content_choice_1_1" : "1",
+								
+                "select_options_1_2" : "0",
+                "option_content_choice_1_2" : "Nope, thanks, I'm out",
+                "nextidoption_content_choice_1_2" : "-1",
+
+
+								"dialogid_2" : "1",
+                "description_2" : "AZA Very handsome!",
+								
+                "select_options_2_3" : "0",
+                "option_content_choice_2_3" : "You're right!",
+                "nextidoption_content_choice_2_3" : "0"
+        },
+			*/
+			
+			$all_var = $data['all_variable_2'];
+			foreach($all_var as $key => $val){
+				// dialog: dialogid_x, description_x, 
+				// option: select_options_x
+			}

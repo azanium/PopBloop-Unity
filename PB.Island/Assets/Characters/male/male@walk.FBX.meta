@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 90073dc3ba3370445b01d4704b2e135a
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: RUA
+    100002: NU 9
+    100004: RF2
+    100006: RF7
+    100008: LF
+    100010: RF
+    100012: RF9
+    100014: RDA
+    100016: LCT
+    100018: RCT
+    100020: H
+    100022: NU 11
+    100024: RF5
+    100026: RS
+    100028: RH
+    100030: RF4
+    100032: RF1
+    100034: NU 12
+    100036: RF8
+    100038: LTE
+    100040: LC
+    100042: RTE
+    100044: RC
+    100046: NU 8
+    100048: RF10
+    100050: RT
+    100052: NU 1
+    100054: NU 2
+    100056: //RootNode
+    100058: NU
+    100060: RFT
+    100062: LT
+    100064: RF3
+    100066: NU 10
+    100068: RF6
+    100070: LFT
+    100072: NU 3
+    100074: LF9
+    100076: LF10
+    100078: NU 7
+    100080: LF7
+    100082: LF8
+    100084: NU 6
+    100086: LF5
+    100088: LF6
+    100090: NU 5
+    100092: LF3
+    100094: LF4
+    100096: NU 4
+    100098: LF1
+    100100: LF2
+    100102: LH
+    100104: LDA
+    100106: LUA
+    100108: LS
+    100110: N
+    100112: S1
+    100114: S2
+    100116: P
+    100118: root_joint
+    400000: RUA
+    400002: NU 9
+    400004: RF2
+    400006: RF7
+    400008: LF
+    400010: RF
+    400012: RF9
+    400014: RDA
+    400016: LCT
+    400018: RCT
+    400020: H
+    400022: NU 11
+    400024: RF5
+    400026: RS
+    400028: RH
+    400030: RF4
+    400032: RF1
+    400034: NU 12
+    400036: RF8
+    400038: LTE
+    400040: LC
+    400042: RTE
+    400044: RC
+    400046: NU 8
+    400048: RF10
+    400050: RT
+    400052: NU 1
+    400054: NU 2
+    400056: //RootNode
+    400058: NU
+    400060: RFT
+    400062: LT
+    400064: RF3
+    400066: NU 10
+    400068: RF6
+    400070: LFT
+    400072: NU 3
+    400074: LF9
+    400076: LF10
+    400078: NU 7
+    400080: LF7
+    400082: LF8
+    400084: NU 6
+    400086: LF5
+    400088: LF6
+    400090: NU 5
+    400092: LF3
+    400094: LF4
+    400096: NU 4
+    400098: LF1
+    400100: LF2
+    400102: LH
+    400104: LDA
+    400106: LUA
+    400108: LS
+    400110: N
+    400112: S1
+    400114: S2
+    400116: P
+    400118: root_joint
+    4300000: Body_Legs_Medium
+    4300002: Body_Medium
+    4300004: Body_Foot
+    4300006: Long_Hand_Polo_Shirt_Medium
+    4300008: Short_Hand_Polo_Shirt_Medium
+    4300010: Short_Pant_Variant_Medium
+    4300012: Long_Hand_Shirt_Medium
+    4300014: Body_hand
+    4300016: Short_Pant_Medium
+    4300018: T-Shirt_Medium
+    4300020: Pants_Medium
+    4300022: Head
+    4300024: Hair_2_Top
+    4300026: Body_Fat
+    4300028: Body_Legs_Fat
+    4300030: Body_Thin
+    4300032: Body_Legs_Thin
+    4300034: Long_Hand_Polo_Shirt_Thin
+    4300036: Long_Hand_Polo_Shirt_Fat
+    4300038: Short_Hand_Polo_Shirt_Thin
+    4300040: Short_Hand_Polo_Shirt_Fat
+    4300042: Short_Pant_Variant_Thin
+    4300044: Short_Pant_Variant_Fat
+    4300046: Long_Hand_Shirt_Thin
+    4300048: Long_Hand_Shirt_Fat
+    4300050: Short_Pant_Thin
+    4300052: Short_Pant_Fat
+    4300054: T-Shirt_Fat
+    4300056: T-Shirt_Thin
+    4300058: Pants_Thin
+    4300060: Pants_Fat
+    4300062: Shoes_01
+    4300064: Hair_1_Bottom
+    4300066: Hair_1_Top
+    4300068: Hair_2_Bottom
+    7400000: Take 001
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

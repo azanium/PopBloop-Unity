@@ -1,0 +1,19 @@
+Avatar Preset
+
+Utk admin, setelah setting2 avatar, dia bisa save current avatar sbg preset [name, gender, size, configuration]
+Button (Female), (Male) x (Thin), (Medium), (Fat) ambil data dari preset
+
+Default Preset (preset yg harus ada):
+- Female Thin			sebenarnya sama, cuma 
+- Female Medium
+- Female Fat
+
+
+
+- Male Thin
+- Male Medium
+- Male Fat
+
+===========
+Apakah size bener perlu? harusnya ga perlu karena fat, medium thin itu cukup dgn ubah filename material body saja. 
+saat user pilih preset, detect dulu current size, baru size disesuaikan.

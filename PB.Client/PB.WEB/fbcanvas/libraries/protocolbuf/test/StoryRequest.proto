@@ -1,0 +1,5 @@
+message StoryRequest {
+required string character1 = 1;
+required string character2 = 2;
+optional string secret_weapon = 3;
+}

@@ -1,0 +1,386 @@
+2012-02-10 01:09:57,476 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=Lilo.Server; AppPath=D:\Server\Photon3\deploy\Lilo.MmoServer
+2012-02-10 01:12:23,554 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:12:23,554 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:12:28,288 [8] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 01:12:30,444 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:12:31,241 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:12:31,241 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:13:06,757 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:13:06,757 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:13:10,226 [9] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 01:13:10,241 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:13:10,351 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:13:10,351 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:13:12,726 [9] INFO  Lilo.MmoServer.MmoPeer - Create World
+2012-02-10 01:13:12,929 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:17:18,038 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:17:18,038 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:17:22,944 [9] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 01:17:22,960 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:17:23,054 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:17:23,054 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:17:25,507 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:17:27,179 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:17:27,179 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:17:27,616 [8] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 01:17:27,632 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:17:27,694 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:17:27,694 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:17:34,976 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:17:34,976 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:17:35,038 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:17:35,054 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:17:35,194 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:17:35,194 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:17:37,679 [9] INFO  Lilo.MmoServer.MmoPeer - Create World
+2012-02-10 01:17:37,819 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:17:55,163 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:17:55,163 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:17:55,210 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:17:55,226 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:17:55,241 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:17:55,241 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:18:30,773 [9] INFO  Lilo.MmoServer.MmoPeer - Create World
+2012-02-10 01:18:32,991 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:18:43,601 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:19:26,038 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:19:26,038 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:19:26,132 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:19:26,148 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:19:26,351 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:19:26,351 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:19:27,663 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:19:42,491 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:19:42,491 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:19:42,523 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:19:42,538 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:19:42,585 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:19:42,585 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:19:50,882 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:21:40,866 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:21:40,866 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:21:40,913 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:21:40,929 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:21:41,023 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:21:41,023 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:21:43,694 [11] INFO  Lilo.MmoServer.MmoPeer - Create World
+2012-02-10 01:21:43,804 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:21:47,241 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:21:47,241 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:21:47,304 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:21:47,319 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:21:47,351 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:21:47,351 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:23:04,632 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:24:28,913 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:24:28,913 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:24:28,991 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:24:29,007 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:24:29,132 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:24:29,132 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:24:31,601 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:24:56,319 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:24:56,319 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:24:56,382 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:24:56,382 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:24:56,476 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:24:56,476 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:24:57,179 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:25:05,835 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:25:05,835 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:25:05,882 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:25:05,898 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:25:06,023 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:25:06,023 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:25:06,710 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:25:44,460 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:25:44,460 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:25:44,507 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:25:44,523 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:25:44,632 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:25:44,632 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:25:47,007 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:25:50,179 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:25:50,179 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:25:50,241 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:25:50,257 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:25:50,304 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:25:50,304 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:26:32,960 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:26:32,960 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:26:33,038 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:26:33,054 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:26:33,851 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:26:33,851 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:26:35,585 [8] INFO  Lilo.MmoServer.MmoPeer - Create World
+2012-02-10 01:26:35,710 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:26:49,257 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:26:49,257 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:26:49,273 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:26:49,288 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:26:49,351 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:26:49,351 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:27:03,569 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:27:20,726 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:28:10,538 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:28:10,538 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:28:10,616 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:28:10,632 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:28:10,773 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:28:10,773 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:28:12,038 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:28:14,819 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:28:14,819 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:28:14,851 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:28:14,866 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:28:14,898 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:28:14,898 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:28:23,398 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:28:45,694 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:28:45,694 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:28:45,757 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:28:45,757 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:28:45,929 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:28:45,929 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:28:46,882 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:28:48,944 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:28:48,944 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:28:48,976 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:28:48,991 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:28:49,038 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:28:49,038 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:28:56,226 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 01:29:04,304 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:29:04,304 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:29:04,366 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:29:04,398 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:29:04,554 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 01:29:04,554 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:29:07,585 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 01:29:12,804 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 01:29:12,804 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 01:29:12,882 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 01:29:12,898 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 01:29:12,944 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 01:29:12,944 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 01:29:48,444 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 02:45:20,929 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 02:45:20,929 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 02:45:20,976 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 02:45:20,991 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 02:45:21,163 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 02:45:21,163 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 02:45:22,116 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 02:45:31,866 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 02:45:31,866 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 02:45:31,882 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 02:45:31,898 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 02:45:31,944 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (10000, 10000), Tile (20, 20)
+2012-02-10 02:45:31,944 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 02:45:40,241 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 20, 20
+2012-02-10 02:58:13,163 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 02:58:13,163 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 02:58:13,523 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 02:58:13,538 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 02:58:14,944 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 02:58:14,944 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 02:58:18,788 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 02:58:21,429 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 02:58:21,429 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 02:58:21,710 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 02:58:21,726 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 02:58:21,929 [9] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 02:58:21,929 [9] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 02:58:48,476 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 02:58:48,476 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 02:58:48,773 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 02:58:48,788 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 02:58:49,194 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 02:58:49,194 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 02:58:51,991 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 02:58:54,257 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 02:58:54,257 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 02:58:54,601 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 02:58:54,616 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 02:58:54,960 [8] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 02:58:54,960 [8] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 03:02:19,085 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:02:19,085 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:02:19,304 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 03:02:19,319 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:02:19,585 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 03:02:19,585 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 03:02:20,507 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 03:02:22,882 [10] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:02:22,882 [10] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:02:23,273 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 03:02:23,288 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:02:23,632 [9] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 03:02:23,632 [9] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 03:02:59,351 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:02:59,351 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:02:59,616 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 03:02:59,616 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: Exception
+2012-02-10 03:04:07,569 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:04:07,569 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:04:11,273 [8] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 03:04:11,288 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:04:11,601 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 03:04:11,601 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 03:04:20,476 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 03:04:26,679 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:04:26,679 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:04:27,054 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 03:04:27,069 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:04:27,476 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 03:04:27,476 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 03:04:28,226 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:04:28,226 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:04:28,601 [11] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 03:04:28,616 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:04:31,351 [8] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 03:04:31,351 [8] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 03:04:38,038 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 03:10:23,523 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:10:23,523 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:10:28,038 [8] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 03:10:28,054 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:10:28,491 [11] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 03:10:28,491 [11] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 03:10:49,851 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 03:10:55,007 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 03:10:55,007 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 03:10:55,366 [9] INFO  Lilo.MmoServer.MmoPeer - Logging In...
+2012-02-10 03:10:55,382 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 03:10:55,741 [8] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 03:10:55,741 [8] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 04:43:36,179 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 04:43:36,179 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 04:43:36,413 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 04:43:36,413 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: Exception
+2012-02-10 05:29:34,898 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:29:34,898 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:29:34,944 [9] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:29:34,960 [9] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:29:35,132 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 05:29:35,132 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 05:29:36,241 [11] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 05:29:49,007 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:29:49,007 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:29:49,054 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:29:49,069 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:29:49,210 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 05:29:49,210 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 05:29:52,179 [8] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 05:30:32,616 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:30:32,616 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:30:32,648 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:30:32,663 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:30:32,694 [8] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 05:30:32,694 [8] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 05:31:01,241 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:31:01,257 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:31:01,335 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:31:01,351 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:31:01,523 [9] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 05:31:01,523 [9] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 05:31:02,554 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 05:31:04,210 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:31:04,210 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:31:04,257 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:31:04,273 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:31:04,288 [8] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 05:31:04,288 [8] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)
+2012-02-10 05:37:22,304 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:37:22,304 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:37:22,351 [11] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:37:22,366 [11] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:37:22,507 [8] INFO  Lilo.MmoServer.MmoPeer - Level Size (1000, 1000), Tile (10, 10)
+2012-02-10 05:37:22,507 [8] INFO  Lilo.MmoServer.MmoPeer - =====> fogMode: 
+2012-02-10 05:37:23,538 [9] INFO  Lilo.MmoServer.MmoPeer - View Distance 10, 10
+2012-02-10 05:37:29,241 [6] INFO  Lilo.MmoServer.MmoPeer - DBServerAddress: 127.0.0.1:27017
+2012-02-10 05:37:29,241 [6] INFO  Lilo.MmoServer.MmoPeer - DBUserName: admin, DBPassword: manglayang2010
+2012-02-10 05:37:29,273 [8] INFO  Lilo.MmoServer.MmoPeer - Authenticating...
+2012-02-10 05:37:29,288 [8] INFO  Lilo.MmoServer.MmoPeer - Auth: OK
+2012-02-10 05:37:29,304 [8] ERROR Lilo.Server.Db.DbManager - DbManager.GetLevel(): Object reference not set to an instance of an object.
+2012-02-10 05:37:29,319 [8] ERROR Lilo.MmoServer.PhotonApplication - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Lilo.MmoServer.MmoPeer.OperationLoadWorld(PeerBase peer, OperationRequest request) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 627
+   at Lilo.MmoServer.MmoPeer.OnOperationRequest(PeerBase peer, OperationRequest operationRequest, SendParameters sendParameters) in D:\LiLo\Lilo3\trunk\Lilo\Lilo.MmoServer\MmoPeer.cs:line 434
+   at Photon.SocketServer.Rpc.Peer.OnOperationRequest(OperationRequest operationRequest, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\Rpc\Peer.cs:line 134
+   at Photon.SocketServer.PeerBase.OnReceiveInternal(Byte[] data, SendParameters sendParameters) in c:\build\photon-socketserver-sdk_3.0\src\Photon.SocketServer\PeerBase.cs:line 641
+   at (Object )
+   at ExitGames.Concurrency.Core.DefaultExecutor.Execute(List`1 toExecute) in c:\Dev\exitgames-libs\src\Core\Concurrency\Core\DefaultExecutor.cs:line 21
+   at ExitGames.Concurrency.Fibers.PoolFiber.Flush(Object ) in c:\Dev\exitgames-libs\src\Core\Concurrency\Fibers\PoolFiber.cs:line 216
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallbackInternal(_ThreadPoolWaitCallback tpWaitCallBack)
+   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback(Object state)

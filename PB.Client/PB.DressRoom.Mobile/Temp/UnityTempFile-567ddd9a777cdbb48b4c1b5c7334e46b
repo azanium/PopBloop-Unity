@@ -1,0 +1,132 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp-Editor.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:Assets/Editor/Prime31/Prime31MenuItem.dll
+-r:Assets/Plugins/Jint.dll
+-r:Assets/Plugins/LitJson.dll
+-r:Assets/Plugins/P31RestKit.dll
+-r:Assets/Plugins/PB.Client.dll
+-r:Assets/Plugins/PB.Common.dll
+-r:Assets/Plugins/PB.Game.dll
+-r:Assets/Plugins/Photon3Unity3D.dll
+-r:Assets/Plugins/protobuf-net.dll
+-r:Assets/ThirdParty/UnIDE/Editor/UnIDE.dll
+-r:Assets/ThirdParty/UnIDE/Editor/Plugins/InlineErrorHighlighter/CSharpParser.dll
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iPhonePlayer/EditorExtensions/UnityEditor.iOS.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/WP8Support/EditorExtensions/UnityEditor.WP8.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/MetroSupport/EditorExtensions/UnityEditor.Metro.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/BB10Player/EditorExtensions/UnityEditor.BB10.Extensions.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/EditorExtensions/UnityEditor.Android.Extensions.dll"
+-r:"C:\Program Files (x86)\Unity\Editor\Data\PackageManager\Unity\PackageManager\4.3.0\Unity.PackageManager.dll"
+-define:UNITY_ANDROID
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:ENABLE_MONO
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_GENERICS
+-define:ENABLE_SUBSTANCE
+-define:INCLUDE_WP8SUPPORT
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:INCLUDE_METROSUPPORT
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:UNITY_ANDROID_API
+-define:ENABLE_2D_PHYSICS
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_NAVMESH_CARVING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_3_0
+-define:UNITY_4_3
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_DUCK_TYPING
+Assets/Editor/PopBloop/EditorHelpers.cs
+Assets/Editor/PopBloop/FBXPostprocessor.cs
+Assets/Editor/PopBloop/SACreateAnimationBundles.cs
+Assets/Editor/PopBloop/SACreateBaseCharacterBundles.cs
+Assets/Editor/PopBloop/SACreateCharacterElementsBundle.cs
+Assets/Editor/PopBloop/SACreateCharacterMaterialAssets.cs
+Assets/Editor/PopBloop/SACreateCharacterMaterialBundles.cs
+Assets/Editor/PopBloop/SACreateMaterialFromTexture.cs
+Assets/Editor/PopBloop/SAGenerateSkybox.cs
+Assets/Editor/PopBloop/SaveFontTexture.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AspectPerfect.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AssetSettings/Asset.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AssetSettings/AssetConfiguration.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AssetSettings/AssetConfigurationCompareWindow.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AssetSettings/AssetSettingsWindow.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AssetSettings/AudioAsset.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/AssetSettings/TextureAsset.cs
+"Assets/ThirdParty/MultiPlatformToolSuite/Editor/Build Scripts/BuildProcess.cs"
+"Assets/ThirdParty/MultiPlatformToolSuite/Editor/Build Scripts/PlatformBuildSettings.cs"
+"Assets/ThirdParty/MultiPlatformToolSuite/Editor/Build Scripts/TextureAssetSettings.cs"
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/EasyPlatform.cs
+Assets/ThirdParty/MultiPlatformToolSuite/Editor/PlatformSpecificsEditor.cs
+Assets/ThirdParty/NGUI/Examples/Scripts/InventorySystem/Editor/InvDatabaseInspector.cs
+Assets/ThirdParty/NGUI/Examples/Scripts/InventorySystem/Editor/InvFindItem.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/BMFontReader.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/ComponentSelector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/NGUIEditorTools.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/NGUIJson.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/NGUIMenu.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/NGUISelectionTools.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/NGUISettings.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/NGUITransformInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/SpriteSelector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIAtlasInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIAtlasMaker.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UICameraTool.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UICreateNewUIWizard.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UICreateWidgetWizard.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIDrawCallInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIFilledSpriteInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIFontInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIFontMaker.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIImageButtonInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UILabelInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIPanelInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIPanelTool.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIPopupListInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIScrollBarInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UISlicedSpriteInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UISliderInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UISpriteAnimationInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UISpriteInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UITextureInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UITexturePacker.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UITiledSpriteInspector.cs
+Assets/ThirdParty/NGUI/Scripts/Editor/UIWidgetInspector.cs
+Assets/ThirdParty/UnIDE/Editor/EditorCore/UIDEAssetModProcessor.cs
+Assets/ThirdParty/UnIDE/Editor/EditorCore/UIDEAssetPostProcessor.cs
+Assets/ThirdParty/UnIDE/Editor/EditorCore/UIDEEditorWindow.cs
+Assets/ThirdParty/UnIDE/Editor/EditorCore/UIDEFontProcessor.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/AutoComplete/AutoComplete.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/AutoComplete/UIDEAutoCompleteData.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/ErrorTracking/ErrorTracking.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/FindAndReplace/FindAndReplace.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/InlineErrorHighlighter/InlineErrorHighlighter.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/SyntaxRules/CSharp/CSKeywords.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/SyntaxRules/SyntaxRuleCSharpUnityscript.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/SyntaxRules/SyntaxRuleGeneric.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/SyntaxRules/Unityscript/USKeywords.cs
+Assets/ThirdParty/UnIDE/Editor/Plugins/UnityAPISearch/UnityAPISearch.cs
+Assets/ThirdParty/UnIDE/Editor/Themes/SlateDark/ThemeSlateDark.cs
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/Unity/Editor/Data/Mono\lib/mono/2.0\System.Xml.Linq.dll"

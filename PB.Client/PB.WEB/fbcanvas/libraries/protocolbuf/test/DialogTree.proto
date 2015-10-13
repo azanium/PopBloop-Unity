@@ -1,0 +1,19 @@
+message DialogOption {
+	required int32 nextDialog = 1;
+	required string text = 2;
+}
+
+message DialogData {
+	required int32 id = 1;
+	enum Tipe {
+		DIALOG = 0;
+	}
+	required Tipe tipe = 2 [default = DIALOG];
+	required string text = 3;
+	repeated DialogOption opt = 4;		// array of DialogOption
+}
+
+message DialogTree {
+	repeated DialogData dialogs = 1;	// array of DialogData
+	required int32 currentDialog = 2;
+}

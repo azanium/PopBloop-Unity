@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{66AE5DEB-7000-A670-4549-E0079C1EA677}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;ENABLE_AUDIO_FMOD;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PHYSICS;ENABLE_TERRAIN;ENABLE_CACHING;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_CLOTH;ENABLE_MOVIES;ENABLE_AUDIO;ENABLE_WWW;ENABLE_SHADOWS;ENABLE_DUCK_TYPING;UNITY_4_0_0;UNITY_4_0;ENABLE_PROFILER;UNITY_EDITOR;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\PBScripts\Fx\GlowPlaneOrient.cs" />
+     <Compile Include="Assets\PBScripts\Fx\ReflectionFx.cs" />
+     <Compile Include="Assets\PBScripts\Fx\UVScroller.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Behaviours\PBBehaviour.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Behaviours\PBBehaviourBase.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Behaviours\PBBehaviourController.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Detector.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\GameTime.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Inputs\InputManager.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Inventory\InventoryEngine.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Languages\Lang.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Messages.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\PBConstants.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\PBDefaults.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\PBGameMaster.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Processor.cs" />
+     <Compile Include="Assets\PBScripts\Game\Common\Quests\QuestEngine.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\Actor.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\ActorAnimator.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\AvatarController.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\AvatarName.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\Foreign Player\ForeignActor.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\Local Player\PlayerActor.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Actor\Local Player\PlayerAnimator.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Camera\SACamera.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Player\LiloThirdPersonController.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\Player\PBThirdPersonController.cs" />
+     <Compile Include="Assets\PBScripts\Game\Controllers\SAHelper.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\AppController.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\ControllerEventType.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\PBController.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\States\AuthenticatedController.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\States\ConnectedController.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\States\DisconnectedController.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\States\EnterWorldController.cs" />
+     <Compile Include="Assets\PBScripts\Game\MVC\Controllers\States\LoadingController.cs" />
+     <Compile Include="Assets\PBScripts\Game\Mmo\RTT.cs" />
+     <Compile Include="Assets\PBScripts\Game\Mmo\Radar.cs" />
+     <Compile Include="Assets\PBScripts\Game\Play\Demo.cs" />
+     <Compile Include="Assets\PBScripts\Game\Play\Loader.cs" />
+     <Compile Include="Assets\PBScripts\Game\Play\MainGame.cs" />
+     <Compile Include="Assets\PBScripts\Items\Gizmo\Gizmo.cs" />
+     <Compile Include="Assets\PBScripts\Items\Gizmo\GizmoHandle.cs" />
+     <Compile Include="Assets\PBScripts\Items\Gizmo\Gizmonizer.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemAnimateBase.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemBase.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemBaseType.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemEquipmentPickup.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemHint.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemInteraction.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemLoot.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemMoveable.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemNPC.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemPickup.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemPortal.cs" />
+     <Compile Include="Assets\PBScripts\Items\ItemVisibilityTrigger.cs" />
+     <Compile Include="Assets\PBScripts\Views\Banner\UIBanner.cs" />
+     <Compile Include="Assets\PBScripts\Views\Banner\UILoadingScreen.cs" />
+     <Compile Include="Assets\PBScripts\Views\Banner\UIProgressBar.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Cache\InventoryStyleCache.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Cache\ResourceManager.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\HUD\UIBubbleView.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\HUD\UIChatBubble.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\HUD\UIEnergy.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\HUD\UIHUDCommands.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\HUD\UIHoverPlane.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\HUD\UIShout.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\WindowBase.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\WindowGUI.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\WindowManager.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winDialog.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winDialogStory.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winInventory.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winLogin.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winPhotoGallery.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winQuest.cs" />
+     <Compile Include="Assets\PBScripts\Views\GUI\Windows\winTest.cs" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Resources\3D\Blob-Shadow\ShadowProjection.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Resources\3D\Shaders\BlurPassesForDof.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Resources\GUI\Fonts\3D Text Shader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Resources\3D\Shaders\ColoredNoise.shader" />
+     <None Include="Assets\Plugins\dotNET\protobuf-net.xml" />
+     <None Include="Assets\Plugins\dotNET\Photon3Unity3D.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Resources\3D\Shaders\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Sources\Shaders\FX-Water.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Resources\3D\Shaders\TexturedFont.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>Assets\Plugins\dotNET\Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>Assets\Plugins\dotNET\LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="PB.Client">
+ <HintPath>Assets\Plugins\dotNET\PB.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="PB.Common">
+ <HintPath>Assets\Plugins\dotNET\PB.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="PB.Game">
+ <HintPath>Assets\Plugins\dotNET\PB.Game.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>Assets\Plugins\dotNET\Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>Assets\Plugins\dotNET\protobuf-net.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{BCA1084E-3BF6-8109-D94E-75D4F7B374A9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{E4B0CFA4-AE99-84C7-F533-CE5E82EA1977}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

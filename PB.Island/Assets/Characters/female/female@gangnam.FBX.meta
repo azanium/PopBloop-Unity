@@ -1,0 +1,125 @@
+fileFormatVersion: 2
+guid: 56c6e51000ea12647bbdf07f573d447f
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    4300000: Body_Legs_Medium
+    4300002: Body_Hand
+    4300004: Body_Foot
+    4300006: Head
+    4300008: Body_Medium
+    4300010: Hair1
+    4300012: T-Shirt_medium
+    4300014: Pants_Medium
+    4300016: Skirt_Medium
+    4300018: Shirt_Medium
+    4300020: Short_Pants_Medium
+    4300022: Shoes_01
+    4300024: Body_Legs_Fat
+    4300026: Body_Thin
+    4300028: Body_Legs_Thin
+    4300030: T-Shirt_Fat
+    4300032: Pants_Fat
+    4300034: Short_Pants_Fat
+    4300036: Shirt_Fat
+    4300038: Shirt_Thin
+    4300040: Skirt_Thin
+    4300042: Short_Pants_Thin
+    4300044: Hair2
+    4300046: Hair3
+    4300048: T-Shirt_Thin
+    4300050: Body_Fat
+    4300052: Hat
+    4300054: Skirt_Fat
+    4300056: sackdres_medium
+    4300058: sackdres_Fat
+    4300060: sackdres_thin
+    4300062: legging_medium
+    4300064: legging_fat
+    4300066: legging_thin
+    4300068: Shoes_02
+    4300070: Baloondress_medium
+    4300072: Baloondress_Fat
+    4300074: Baloondress_Thin
+    4300076: Hair4
+    4300078: Hair5
+    4300080: Hair6
+    4300082: Pants_thin
+    4300084: shoes_03
+    4300086: shoes_04
+    4300088: shoes_05
+    4300090: shoes_06
+    4300092: shoes_07
+    4300094: shoes_08
+    4300096: shoes_09
+    4300098: shoes_10
+    4300100: shoes_11
+    4300102: Shoes_12
+    4300104: Shoes_13
+    4300106: Shoes_14
+    4300108: hoodie_Medium
+    4300110: hoodie_thin
+    4300112: hoodie_Fat
+    4300114: Hat_01
+    4300116: Hat_02
+    4300118: Hat_03
+    4300120: Hat_04
+    4300122: Hat_05
+    4300124: Hat_06
+    4300126: sweater_01_medium
+    4300128: sweater_01_fat
+    4300130: sweater_01_thin
+    7400000: Female_Final edit01
+    11100000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

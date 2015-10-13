@@ -1,0 +1,43 @@
+saat rully kirim chat ke mukhtar, sekalian masukin data ke table ChatAlert (sender: rully, receiver: mukhtar, time: time() )
+
+
+mukhtar: saat loadFriendList, cek jika ada record di ChatAlert dengan (receiver:mukhtar), dapatkan semua sender-nya, 
+
+jika window chat utk sender blm ada: 
+	show circlenya jika masih hidden, ubah warna sender jadi merah
+	atau
+	sekalian show windownya?
+
+jika window chat utk sender sudah ada: do nothing
+
+================================================================================================================================
+
+setelah pesan [dibaca], hapus record di ChatAlert
+
+[dibaca]:
+- chatwindow utk sender shown
+- dialog utk message 
+
+================================================================================================================================
+
+saat kirim chat, langsung di-set [unread=1]
+
+saat receiver ngebaca, semua chat dari sender utk receiver ini langsung di-set [unread=0]
+
+ya udah samain dengan ChatAlert aja...
+
+jadi apa itu inbox? semua chat?
+
+================================================================================================================================
+
+revisi lagi...
+
+untuk direct message ga lagi pake chat, tapi bener2 di table terpisah: DirectMessage
+bedanya:
+- utk chat perlu jadi friend dulu, kalo directmessage tidak
+- chat realtime, directmessage tidak
+- chat log/history-nya bisa di-hapus, directmessage tidak
+
+tambahan utk shout: reply/comment di table ShoutComment
+	field: shout_id, comment
+

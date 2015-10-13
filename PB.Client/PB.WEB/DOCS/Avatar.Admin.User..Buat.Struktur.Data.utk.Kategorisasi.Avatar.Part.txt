@@ -1,0 +1,26 @@
+[Avatar Admin & User] Buat struktur data utk kategorisasi avatar part
+
+contoh data:
+[TIPE]	[BENTUK]	[WARNA]
+Mata ->	Mata Belok ->	Mata Belok Warna Hijau
+			Mata Belok Warna Biru
+			Mata Belok Warna Coklat
+			
+
+	Mata Sipit ->	Mata Sipit Warna Hijau
+			Mata Sipit Warna Biru
+			Mata Sipit Warna Coklat
+
+Cukup tambahkan field 'shape' di table Assets.Avatar
+Field 'shape' dinamis, dapat ditambahkan saat user menambahkan data Assets.
+Field 'shape' diurutkan berdasar apa?
+
+// ------ REVISI 100511 ------
+
+Buat table baru: AvatarCategories [lilo_id, tipe, categories, sortorder]
+
+Mulai revisi di Admin dulu, baru User:
+- asset_admin_avatar
+- 
+
+

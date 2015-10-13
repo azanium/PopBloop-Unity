@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>PopBloop: It's Nothing! Yet Everything</title>
+<link rel="stylesheet" href="css/960/reset.css" />
+<link rel="stylesheet" href="css/960/960.css" />
+<link rel="shortcut icon" href="popbloop.img/favicon.gif">
+
+<meta property="og:title" content="PopBloop - Create your world and get new friends!" />
+<meta property="og:type" content="game" />
+<meta property="og:url" content="http://popbloop.com" />
+<meta property="og:image" content="http://124.66.160.109/popbloop.fb.jpg" />
+<meta property="og:site_name" content="PopBloop" />
+<meta property="fb:admins" content="1834091583" />
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/popbloopdark.css" media="screen">
+
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+<!-- Include the below script, Copyright 2010, Brandon Aaron (http://brandonaaron.net/) for scrollwheel support. -->
+<script type="text/javascript" src="js/mylibs/slidedeck/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="js/mylibs/slidedeck/slidedeck.skin.css" media="screen" />
+<!-- Styles for the skin that only load for Internet Explorer -->
+<!--[if lte IE 8]>
+<link rel="stylesheet" type="text/css" href="js/mylibs/slidedeck/slidedeck.skin.ie.css" media="screen,handheld" />
+<![endif]-->
+
+
+<!-- Include the SlideDeck jQuery script. -->
+<script type="text/javascript" src="js/mylibs/slidedeck/slidedeck.jquery.lite.pack.js"></script>
+
+<script language="javascript">
+	$(document).ready(function(){
+
+		$('.feature_box').live('click', function(){
+			var _id = $(this).attr('id');
+			var _id_split = _id.split('_');
+			switch(_id_split[1]){
+				case '1':
+					$('.pop_webplayer').html('Join yuk...');
+				break;
+			}
+		});
+		
+		$('.slidedeck').slidedeck({
+			autoPlay: true,
+			cycle: true, 
+			autoPlayInterval: 5000 
+		});
+
+		$('#login_box_top_sign_in').live('click', function(){
+			var visible = $('#login_box_bottom_sign_in').is(":visible");
+			$('#login_box_bottom_sign_up').hide();
+			$('#login_box_bottom_sign_in').slideToggle();
+			
+			if(visible){
+				$('#sign_in_arrow').css("background-image","url(images/page-images/loginbar/toggle_down_light.png)");
+				$('#login_box_top_sign_in').css("background-color","");
+			} else {
+				$('#sign_in_arrow').css("background-image","url(images/page-images/loginbar/toggle_up_light.png)");
+				$('#login_box_top_sign_in').css("background-color","#00CCFF");
+			}
+			$('#sign_up_arrow').css("background-image","url(images/page-images/loginbar/toggle_down_light.png)");
+			$('#login_box_top_sign_up').css("background-color","");
+		});
+
+		$('#login_box_top_sign_up').live('click', function(){
+			var visible = $('#login_box_bottom_sign_up').is(":visible");
+			$('#login_box_bottom_sign_in').hide();
+			$('#login_box_bottom_sign_up').slideToggle();
+			
+			if(visible){
+				$('#sign_up_arrow').css("background-image","url(images/page-images/loginbar/toggle_down_light.png)");
+				$('#login_box_top_sign_up').css("background-color","");
+			} else {
+				$('#sign_up_arrow').css("background-image","url(images/page-images/loginbar/toggle_up_light.png)");
+				$('#login_box_top_sign_up').css("background-color","#00CCFF");
+			}
+			$('#sign_in_arrow').css("background-image","url(images/page-images/loginbar/toggle_down_light.png)");
+			$('#login_box_top_sign_in').css("background-color","");
+		});
+
+	});
+</script>
+
+
+<!--[
+<link rel="stylesheet" href="css/momo_front.css" />
+]-->
+</head>
+<body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=353789864649141";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+//	window.fbAsyncInit = function() {
+//		FB.init({
+//			appId      : '353789864649141',
+//			status     : true, 
+//			cookie     : true,
+//			xfbml      : true,
+//			oauth      : true,
+//		});
+//	};
+//	(function(d){
+//		 var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+//		 js = d.createElement('script'); js.id = id; js.async = true;
+//		 js.src = "//connect.facebook.net/en_US/all.js";
+//		 d.getElementsByTagName('head')[0].appendChild(js);
+//	 }(document));
+</script>
+
+
+<div class="container_12 pop_header">
+  <div class="grid_8">
+  8
+	</div>
+  <div class="grid_4">
+
+		<div id="login_box_top">
+    	<div id="login_box_top_sign_in">Sign in <i id="sign_in_arrow"></i></div>
+    	<div id="login_box_top_sign_up">Sign up <i id="sign_up_arrow"></i></div>
+    </div>
+		<div id="login_box_bottom">
+    	<div id="login_box_bottom_sign_in" style="height:118px;">
+      	<form>
+      	<div class="sign_content" style="width:100%; height:12px;">&nbsp;</div>
+      	<div class="sign_content" style="width:25%;">Username</div>
+      	<div class="sign_content" style="width:75%;"><input type="text" name="username" id="username" value="" /></div>
+      	<div class="sign_content" style="width:25%;">Password</div>
+      	<div class="sign_content" style="width:75%;"><input type="text" name="password" id="password" value="" /></div>
+      	<div class="sign_content" style="width:25%;">&nbsp;</div>
+      	<div class="sign_content" style="width:45%; text-align:left;"><input type="checkbox" name="remember_me" id="remember_me" />&nbsp;<label for="remember_me">Remember me</label></div>
+      	<div class="sign_content" style="width:30%; text-align:left;"><input type="button" name="submit" id="submit" value="Submit" /></div>
+
+      	<div class="sign_content" style="width:100%; text-align:center;"><a href="#" style="text-decoration:none; cursor:pointer; color:#FFF;">Forgot your password?</a></div>
+        </form>
+        <!--[*
+        <div style="text-align:center">
+        	<div class="fb-login-button">Login with Facebook</div>
+        </div>
+        *]-->
+      </div>
+    	<div id="login_box_bottom_sign_up" style="height:200px;">
+      	<div class="sign_content">sdfdsfsdf</div>
+      </div>
+    </div>
+
+	</div>
+  <div class="clear"></div>
+</div>
+
+<div class="container_12 pop_main_menu">
+  <div class="grid_8 pop_main_menu_left">
+		<div class="pop_main_menu_item">Home</div>
+		<div class="pop_main_menu_item">Play</div>
+		<div class="pop_main_menu_item">Shop</div>
+		<div class="pop_main_menu_item">Support</div>
+	</div>
+  <div class="grid_4 pop_main_menu_right">
+		&nbsp;
+	</div>
+  <div class="clear"></div>
+</div>
+
+<div class="container_12 pop_20_spacer">
+</div>
+
+<div class="container_12">
+  <div class="grid_12 pop_webplayer">
+
+
+		<div id="slidedeck_frame" class="skin-slidedeck">
+			<dl class="slidedeck">
+				<dt>Join Now</dt>
+				<dd>Slide content</dd>
+				<dt>Customize Your Avatar</dt>
+				<dd>Slide content</dd>
+				<dt>Build Your World</dt>
+				<dd>Slide content</dd>
+				<dt>Make Friends and Have Fun</dt>
+				<dd>Yiihhaaa...</dd>
+			</dl>
+		</div>
+
+
+	</div>
+  <div class="clear"></div>
+</div>
+
+<div class="container_12 pop_20_spacer">
+</div>
+
+<div class="container_12">
+	<div class="grid_3 feature_box" id="fb_2">
+  	<div id="feature_box_2"></div>
+    <div class="feature_box_content"><div class="feature_box_content_text">Player of The Month</div></div>
+  </div>
+	<div class="grid_3 feature_box" id="fb_3">
+  	<div id="feature_box_3"></div>
+    <div class="feature_box_content"><div class="feature_box_content_text">Featured Islands</div></div>
+  </div>
+	<div class="grid_3 feature_box" id="fb_4">
+  	<div id="feature_box_4"></div>
+    <div class="feature_box_content"><div class="feature_box_content_text">Make Friends and Have Fun!</div></div>
+  </div>
+	<div class="grid_3 feature_box" id="fb_1">
+  	<div id="feature_box_1"></div>
+    <div class="feature_box_content"><div class="feature_box_content_text">Join PopBloop Now!</div></div>
+  </div>
+  <div class="clear"></div>
+</div>
+
+<div class="container_12 pop_20_spacer">
+</div>
+
+<div class="container_12">
+  <div class="grid_6">
+		<div class="fb-like" data-href="http://popbloop.com" data-send="true" data-width="450" data-show-faces="true" data-colorscheme="dark" data-font="segoe ui"></div>
+    <!--[
+    <div class="fb-like" data-href="http://popbloop.com" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-colorscheme="dark" data-font="segoe ui"></div>
+    ]-->
+	</div>
+  <div class="grid_6">
+  	&nbsp;
+	</div>
+</div>
+
+<div class="container_12">
+  <div class="grid_12">
+		<br />
+		<br />
+		<br />
+	</div>
+  <div class="clear"></div>
+</div>
+
+
+
+<div class="bottom_toolbar">
+	<div class="bottom_toolbar_item" style="float:left; width:100px; height:100%; text-align:center"></div>
+	<div class="bottom_toolbar_item" style="float:left; width:3px; height:100%; background-image:url(popbloop.img/bottom.toolbar.divider.png);"></div>
+	<div class="bottom_toolbar_item" style="float:left; width:100px; height:100%; text-align:center"></div>
+	<div class="bottom_toolbar_item" style="float:left; width:3px; height:100%; background-image:url(popbloop.img/bottom.toolbar.divider.png);"></div>
+	<div class="bottom_toolbar_item" style="float:left; width:100px; height:100%; text-align:center"></div>
+</div>
+
+</body>

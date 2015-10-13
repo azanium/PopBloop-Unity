@@ -1,0 +1,25 @@
+/////////////////////
+// CATATAN  HENDRA //
+/////////////////////
+
+Profile Picture Upload from Unity
+- POST to URL user/guest/uploadprofilephoto
+- variable yg dikirim: session_id     -> $_POST['session_id']
+- variable file yg dikirim = picture  -> $_FILES['picture']
+- Jika terjadi kesalahan, fungsi akan mengembalikan string "ERROR". Selain itu berarti upload file sukses.
+
+
+/////////////////////
+// CATATAN MUKHTAR //
+/////////////////////
+
+setiap x jam, cari di table Users.Account yg belum mempunyai field 'activated'
+
+(field activated isinya: activation datetime)
+
+activation link: popbloop.com/user/guest/activate/[key]
+
+[key] = tersimpan di Users.Account.activation_key
+
+
+login di blok bila lewat waktu blm di activate

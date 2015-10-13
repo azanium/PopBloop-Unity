@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 6ac02e67d329af4428d6a26671b4d0fb
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: LTE
+    100002: LUA
+    100004: LS
+    100006: LDA
+    100008: LF4
+    100010: RH
+    100012: RC
+    100014: LFT
+    100016: LF9
+    100018: RF2
+    100020: NU 11
+    100022: NU 10
+    100024: NU 12
+    100026: LCT
+    100028: LF
+    100030: RCT
+    100032: LF7
+    100034: LT
+    100036: RF7
+    100038: LC
+    100040: RFT
+    100042: LF6
+    100044: RUA
+    100046: LF2
+    100048: LF8
+    100050: LF5
+    100052: RF8
+    100054: //RootNode
+    100056: RF3
+    100058: NU 4
+    100060: RF1
+    100062: NU
+    100064: RF10
+    100066: RT
+    100068: NU 6
+    100070: NU 5
+    100072: LH
+    100074: LF10
+    100076: NU 1
+    100078: RDA
+    100080: LF3
+    100082: NU 7
+    100084: S1
+    100086: S2
+    100088: P
+    100090: root_joint
+    100092: N
+    100094: RF
+    100096: LF1
+    100098: RTE
+    100100: NU 2
+    100102: NU 9
+    100104: RF4
+    100106: NU 8
+    100108: NU 3
+    100110: RF6
+    100112: RS
+    100114: RF9
+    100116: H
+    100118: RF5
+    100120: ' bip01 Footsteps'
+    100122: Villager_03_mesh
+    400000: LTE
+    400002: LUA
+    400004: LS
+    400006: LDA
+    400008: LF4
+    400010: RH
+    400012: RC
+    400014: LFT
+    400016: LF9
+    400018: RF2
+    400020: NU 11
+    400022: NU 10
+    400024: NU 12
+    400026: LCT
+    400028: LF
+    400030: RCT
+    400032: LF7
+    400034: LT
+    400036: RF7
+    400038: LC
+    400040: RFT
+    400042: LF6
+    400044: RUA
+    400046: LF2
+    400048: LF8
+    400050: LF5
+    400052: RF8
+    400054: //RootNode
+    400056: RF3
+    400058: NU 4
+    400060: RF1
+    400062: NU
+    400064: RF10
+    400066: RT
+    400068: NU 6
+    400070: NU 5
+    400072: LH
+    400074: LF10
+    400076: NU 1
+    400078: RDA
+    400080: LF3
+    400082: NU 7
+    400084: S1
+    400086: S2
+    400088: P
+    400090: root_joint
+    400092: N
+    400094: RF
+    400096: LF1
+    400098: RTE
+    400100: NU 2
+    400102: NU 9
+    400104: RF4
+    400106: NU 8
+    400108: NU 3
+    400110: RF6
+    400112: RS
+    400114: RF9
+    400116: H
+    400118: RF5
+    400120: ' bip01 Footsteps'
+    400122: Villager_03_mesh
+    4300000: Villager_03_mesh
+    7400000: Villager_004
+    7400002: idle
+    7400004: Relax
+    11100000: //RootNode
+    13700000: Villager_03_mesh
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 3
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Relax
+      takeName: 
+      firstFrame: 1
+      lastFrame: 407
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      keepAdditionalBonesAnimation: 1
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      skeletonMaskElements: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

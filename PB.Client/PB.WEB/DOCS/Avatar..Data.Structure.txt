@@ -1,0 +1,52 @@
+/*
+        string gender = "male_base";
+
+        string hair = "male_hair_1_top";
+        string hairMat = "male_hair_1";
+
+        string hairBottom = "male_hair_1_bottom";
+        string hairBottomMat = "male_hair_1";
+
+        string head = "male_head";
+
+        string eyeBrows = "";
+        string eyes = "";
+        string lip = "";
+
+        string body = "male_body_medium";
+        string bodyMat = "";// "male_body";
+
+        string hand = "male_body_hand";
+        string handMat = "male_body";
+
+        string pants = "male_pants_medium";
+        string pantsMat = "male_pants";
+
+        string shoes = "male_shoes_01";
+        string shoesMat = "male_shoes_01";*/
+
+        string gender = "female_base";
+
+        string hair = "female_hair1_top";
+        string hairMat = "female_hair1";
+
+        string hairBottom = "female_hair1_bottom";
+        string hairBottomMat = "female_hair1";
+
+        string head = "female_head";
+
+        string eyeBrows = "";
+        string eyes = "";
+        string lip = "";
+
+        string body = "female_body_medium";
+        string bodyMat = "";// "male_body";
+
+        string hand = "female_body_hand";
+        string handMat = "female_body";
+
+        string pants = "female_long_pants_medium";
+        string pantsMat = "female_long_pants";
+
+        string shoes = "female_shoes_01";
+        string shoesMat = "female_shoes_01";

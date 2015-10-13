@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3D1BDDDB-7B35-4A5A-999F-0E269C23B603}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PB.Client</RootNamespace>
+    <AssemblyName>PB.Client</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LitJson, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PB.Libs\Client\LitJson.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D, Version=3.0.1.12, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PB.Libs\Client\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=1.0.0.282, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\PB.Libs\Client\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MMO\ForeignItem.cs" />
+    <Compile Include="MMO\Game.cs" />
+    <Compile Include="MMO\GameState.cs" />
+    <Compile Include="MMO\GameStateStrategies\Connected.cs" />
+    <Compile Include="MMO\GameStateStrategies\Disconnected.cs" />
+    <Compile Include="MMO\GameStateStrategies\IGameLogicStrategy.cs" />
+    <Compile Include="MMO\GameStateStrategies\WaitingForConnect.cs" />
+    <Compile Include="MMO\GameStateStrategies\WorldEntered.cs" />
+    <Compile Include="MMO\IGameListener.cs" />
+    <Compile Include="MMO\InterestArea.cs" />
+    <Compile Include="MMO\Item.cs" />
+    <Compile Include="MMO\MyItem.cs" />
+    <Compile Include="MMO\Operations.cs" />
+    <Compile Include="MMO\PhotonPeer.cs" />
+    <Compile Include="MMO\Settings.cs" />
+    <Compile Include="MMO\WorldData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\PopBloopSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PB.Common\PB.Common.csproj">
+      <Project>{8C1F7F02-10EA-436F-9679-D4DB5B666BDB}</Project>
+      <Name>PB.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>@echo ==========================
+@echo POSTBUILD for $(ProjectName)
+@echo ==========================
+copy "$(SolutionDir)PB.Client\bin\LitJson.dll" "$(SolutionDir)PB.Unity\Assets\Plugins\dotNET\"
+copy "$(SolutionDir)PB.Client\bin\PB.Client.dll" "$(SolutionDir)PB.Unity\Assets\Plugins\dotNET\"
+copy "$(SolutionDir)PB.Client\bin\PB.Common.dll" "$(SolutionDir)PB.Unity\Assets\Plugins\dotNET\"
+copy "$(SolutionDir)PB.Client\bin\protobuf-net.dll" "$(SolutionDir)PB.Unity\Assets\Plugins\dotNET\"
+
+copy "$(SolutionDir)PB.Client\bin\LitJson.dll" "$(SolutionDir)PB.DressRoom\Assets\Plugins"
+copy "$(SolutionDir)PB.Client\bin\PB.Client.dll" "$(SolutionDir)PB.DressRoom\Assets\Plugins"
+copy "$(SolutionDir)PB.Client\bin\PB.Common.dll" "$(SolutionDir)PB.DressRoom\Assets\Plugins"
+copy "$(SolutionDir)PB.Client\bin\protobuf-net.dll" "$(SolutionDir)PB.DressRoom\Assets\Plugins"
+
+copy "$(SolutionDir)PB.Client\bin\LitJson.dll" "$(SolutionDir)PB.DressRoom.Mobile\Assets\Plugins"
+copy "$(SolutionDir)PB.Client\bin\PB.Client.dll" "$(SolutionDir)PB.DressRoom.Mobile\Assets\Plugins"
+copy "$(SolutionDir)PB.Client\bin\PB.Common.dll" "$(SolutionDir)PB.DressRoom.Mobile\Assets\Plugins"
+copy "$(SolutionDir)PB.Client\bin\protobuf-net.dll" "$(SolutionDir)PB.DressRoom.Mobile\Assets\Plugins"</PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

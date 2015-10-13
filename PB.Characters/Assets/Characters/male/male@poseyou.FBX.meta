@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 330cba68e5602c6479f31073714978f8
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ' bip01 Footsteps'
+    100004: H
+    100006: LC
+    100008: LCT
+    100010: LDA
+    100012: LF
+    100014: LF1
+    100016: LF10
+    100018: LF2
+    100020: LF3
+    100022: LF4
+    100024: LF5
+    100026: LF6
+    100028: LF7
+    100030: LF8
+    100032: LF9
+    100034: LFT
+    100036: LH
+    100038: LS
+    100040: LT
+    100042: LTE
+    100044: LUA
+    100046: N
+    100048: NU
+    100050: NU 1
+    100052: NU 10
+    100054: NU 11
+    100056: NU 12
+    100058: NU 2
+    100060: NU 3
+    100062: NU 4
+    100064: NU 5
+    100066: NU 6
+    100068: NU 7
+    100070: NU 8
+    100072: NU 9
+    100074: P
+    100076: RC
+    100078: RCT
+    100080: RDA
+    100082: RF
+    100084: RF1
+    100086: RF10
+    100088: RF2
+    100090: RF3
+    100092: RF4
+    100094: RF5
+    100096: RF6
+    100098: RF7
+    100100: RF8
+    100102: RF9
+    100104: RFT
+    100106: RH
+    100108: root_joint
+    100110: RS
+    100112: RT
+    100114: RTE
+    100116: RUA
+    100118: S1
+    100120: S2
+    100122: Body_hand
+    100124: Hair_02
+    100126: Head
+    100128: Pants_Medium
+    100130: Shoes_02
+    100132: T-Shirt_Medium
+    400000: //RootNode
+    400002: ' bip01 Footsteps'
+    400004: H
+    400006: LC
+    400008: LCT
+    400010: LDA
+    400012: LF
+    400014: LF1
+    400016: LF10
+    400018: LF2
+    400020: LF3
+    400022: LF4
+    400024: LF5
+    400026: LF6
+    400028: LF7
+    400030: LF8
+    400032: LF9
+    400034: LFT
+    400036: LH
+    400038: LS
+    400040: LT
+    400042: LTE
+    400044: LUA
+    400046: N
+    400048: NU
+    400050: NU 1
+    400052: NU 10
+    400054: NU 11
+    400056: NU 12
+    400058: NU 2
+    400060: NU 3
+    400062: NU 4
+    400064: NU 5
+    400066: NU 6
+    400068: NU 7
+    400070: NU 8
+    400072: NU 9
+    400074: P
+    400076: RC
+    400078: RCT
+    400080: RDA
+    400082: RF
+    400084: RF1
+    400086: RF10
+    400088: RF2
+    400090: RF3
+    400092: RF4
+    400094: RF5
+    400096: RF6
+    400098: RF7
+    400100: RF8
+    400102: RF9
+    400104: RFT
+    400106: RH
+    400108: root_joint
+    400110: RS
+    400112: RT
+    400114: RTE
+    400116: RUA
+    400118: S1
+    400120: S2
+    400122: Body_hand
+    400124: Hair_02
+    400126: Head
+    400128: Pants_Medium
+    400130: Shoes_02
+    400132: T-Shirt_Medium
+    4300000: Body_hand
+    4300002: T-Shirt_Medium
+    4300004: Pants_Medium
+    4300006: Head
+    4300008: Hair_02
+    4300010: Shoes_02
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Body_hand
+    13700002: Hair_02
+    13700004: Head
+    13700006: Pants_Medium
+    13700008: Shoes_02
+    13700010: T-Shirt_Medium
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

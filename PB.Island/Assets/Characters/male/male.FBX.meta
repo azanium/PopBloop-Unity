@@ -1,0 +1,318 @@
+fileFormatVersion: 2
+guid: 5d64143a6bf29b644b8f377d9a3b1c05
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hair_2_Bottom
+    100004: Hair_1_Top
+    100006: Hair_1_Bottom
+    100008: Shoes_01
+    100010: Pants_Fat
+    100012: Pants_Thin
+    100014: T-Shirt_Thin
+    100016: T-Shirt_Fat
+    100018: Short_Pant_Fat
+    100020: Short_Pant_Thin
+    100022: Body_Legs_Thin
+    100024: Body_Thin
+    100026: Body_Legs_Fat
+    100028: Body_Fat
+    100030: Hair_2_Top
+    100032: Head
+    100034: Pants_Medium
+    100036: T-Shirt_Medium
+    100038: Body_hand
+    100040: RCT
+    100042: NU 2
+    100044: RTE
+    100046: RF
+    100048: RC
+    100050: RT
+    100052: LCT
+    100054: NU 1
+    100056: LTE
+    100058: LF
+    100060: LC
+    100062: LT
+    100064: NU
+    100066: H
+    100068: RFT
+    100070: NU 8
+    100072: RF9
+    100074: RF10
+    100076: NU 12
+    100078: RF7
+    100080: RF8
+    100082: NU 11
+    100084: RF5
+    100086: RF6
+    100088: NU 10
+    100090: RF3
+    100092: RF4
+    100094: NU 9
+    100096: RF1
+    100098: RF2
+    100100: RH
+    100102: RDA
+    100104: RUA
+    100106: RS
+    100108: LFT
+    100110: NU 3
+    100112: LF9
+    100114: LF10
+    100116: NU 7
+    100118: LF7
+    100120: LF8
+    100122: NU 6
+    100124: LF5
+    100126: LF6
+    100128: NU 5
+    100130: LF3
+    100132: LF4
+    100134: NU 4
+    100136: LF1
+    100138: LF2
+    100140: LH
+    100142: LDA
+    100144: LUA
+    100146: LS
+    100148: N
+    100150: S1
+    100152: S2
+    100154: P
+    100156: root_joint
+    100158: Body_Foot
+    100160: Body_Medium
+    100162: Short_Pant_Medium
+    100164: Long_Hand_Polo_Shirt_Medium
+    100166: Long_Hand_Shirt_Medium
+    100168: Body_Legs_Medium
+    100170: Short_Pant_Variant_Medium
+    100172: Short_Hand_Polo_Shirt_Medium
+    100174: Long_Hand_Shirt_Fat
+    100176: Long_Hand_Shirt_Thin
+    100178: Short_Pant_Variant_Thin
+    100180: Long_Hand_Polo_Shirt_Thin
+    100182: Long_Hand_Polo_Shirt_Fat
+    100184: Short_Pant_Variant_Fat
+    100186: Short_Hand_Polo_Shirt_Fat
+    100188: Short_Hand_Polo_Shirt_Thin
+    400000: //RootNode
+    400002: Hair_2_Bottom
+    400004: Hair_1_Top
+    400006: Hair_1_Bottom
+    400008: Shoes_01
+    400010: Pants_Fat
+    400012: Pants_Thin
+    400014: T-Shirt_Thin
+    400016: T-Shirt_Fat
+    400018: Short_Pant_Fat
+    400020: Short_Pant_Thin
+    400022: Body_Legs_Thin
+    400024: Body_Thin
+    400026: Body_Legs_Fat
+    400028: Body_Fat
+    400030: Hair_2_Top
+    400032: Head
+    400034: Pants_Medium
+    400036: T-Shirt_Medium
+    400038: Body_hand
+    400040: RCT
+    400042: NU 2
+    400044: RTE
+    400046: RF
+    400048: RC
+    400050: RT
+    400052: LCT
+    400054: NU 1
+    400056: LTE
+    400058: LF
+    400060: LC
+    400062: LT
+    400064: NU
+    400066: H
+    400068: RFT
+    400070: NU 8
+    400072: RF9
+    400074: RF10
+    400076: NU 12
+    400078: RF7
+    400080: RF8
+    400082: NU 11
+    400084: RF5
+    400086: RF6
+    400088: NU 10
+    400090: RF3
+    400092: RF4
+    400094: NU 9
+    400096: RF1
+    400098: RF2
+    400100: RH
+    400102: RDA
+    400104: RUA
+    400106: RS
+    400108: LFT
+    400110: NU 3
+    400112: LF9
+    400114: LF10
+    400116: NU 7
+    400118: LF7
+    400120: LF8
+    400122: NU 6
+    400124: LF5
+    400126: LF6
+    400128: NU 5
+    400130: LF3
+    400132: LF4
+    400134: NU 4
+    400136: LF1
+    400138: LF2
+    400140: LH
+    400142: LDA
+    400144: LUA
+    400146: LS
+    400148: N
+    400150: S1
+    400152: S2
+    400154: P
+    400156: root_joint
+    400158: Body_Foot
+    400160: Body_Medium
+    400162: Short_Pant_Medium
+    400164: Long_Hand_Polo_Shirt_Medium
+    400166: Long_Hand_Shirt_Medium
+    400168: Body_Legs_Medium
+    400170: Short_Pant_Variant_Medium
+    400172: Short_Hand_Polo_Shirt_Medium
+    400174: Long_Hand_Shirt_Fat
+    400176: Long_Hand_Shirt_Thin
+    400178: Short_Pant_Variant_Thin
+    400180: Long_Hand_Polo_Shirt_Thin
+    400182: Long_Hand_Polo_Shirt_Fat
+    400184: Short_Pant_Variant_Fat
+    400186: Short_Hand_Polo_Shirt_Fat
+    400188: Short_Hand_Polo_Shirt_Thin
+    4300000: Body_Legs_Medium
+    4300002: Body_Medium
+    4300004: Body_Foot
+    4300006: Long_Hand_Polo_Shirt_Medium
+    4300008: Short_Hand_Polo_Shirt_Medium
+    4300010: Short_Pant_Variant_Medium
+    4300012: Long_Hand_Shirt_Medium
+    4300014: Body_hand
+    4300016: Short_Pant_Medium
+    4300018: T-Shirt_Medium
+    4300020: Pants_Medium
+    4300022: Head
+    4300024: Hair_2_Top
+    4300026: Body_Fat
+    4300028: Body_Legs_Fat
+    4300030: Body_Thin
+    4300032: Body_Legs_Thin
+    4300034: Long_Hand_Polo_Shirt_Thin
+    4300036: Long_Hand_Polo_Shirt_Fat
+    4300038: Short_Hand_Polo_Shirt_Thin
+    4300040: Short_Hand_Polo_Shirt_Fat
+    4300042: Short_Pant_Variant_Thin
+    4300044: Short_Pant_Variant_Fat
+    4300046: Long_Hand_Shirt_Thin
+    4300048: Long_Hand_Shirt_Fat
+    4300050: Short_Pant_Thin
+    4300052: Short_Pant_Fat
+    4300054: T-Shirt_Fat
+    4300056: T-Shirt_Thin
+    4300058: Pants_Thin
+    4300060: Pants_Fat
+    4300062: Shoes_01
+    4300064: Hair_1_Bottom
+    4300066: Hair_1_Top
+    4300068: Hair_2_Bottom
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Hair_2_Bottom
+    13700002: Hair_1_Top
+    13700004: Hair_1_Bottom
+    13700006: Shoes_01
+    13700008: Pants_Fat
+    13700010: Pants_Thin
+    13700012: T-Shirt_Thin
+    13700014: T-Shirt_Fat
+    13700016: Short_Pant_Fat
+    13700018: Short_Pant_Thin
+    13700020: Body_Legs_Thin
+    13700022: Body_Thin
+    13700024: Body_Legs_Fat
+    13700026: Body_Fat
+    13700028: Hair_2_Top
+    13700030: Head
+    13700032: Pants_Medium
+    13700034: T-Shirt_Medium
+    13700036: Body_hand
+    13700038: Body_Foot
+    13700040: Body_Medium
+    13700042: Short_Pant_Medium
+    13700044: Long_Hand_Polo_Shirt_Medium
+    13700046: Long_Hand_Shirt_Medium
+    13700048: Body_Legs_Medium
+    13700050: Short_Pant_Variant_Medium
+    13700052: Short_Hand_Polo_Shirt_Medium
+    13700054: Long_Hand_Shirt_Fat
+    13700056: Long_Hand_Shirt_Thin
+    13700058: Short_Pant_Variant_Thin
+    13700060: Long_Hand_Polo_Shirt_Thin
+    13700062: Long_Hand_Polo_Shirt_Fat
+    13700064: Short_Pant_Variant_Fat
+    13700066: Short_Hand_Polo_Shirt_Fat
+    13700068: Short_Hand_Polo_Shirt_Thin
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
